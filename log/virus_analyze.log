@@ -1,0 +1,952 @@
+[2016-09-17 19:56:17] [INFO] loading ...-begin to decode:51b3bdab4b51b0614ef5a6863767db61.apk
+[2016-09-17 19:56:21] [INFO] processing ...
+[2016-09-17 19:56:24] [WARN] Can't detect out node for switch block: B:29:0x0043 in android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 19:56:24] [WARN] Can't detect out node for switch block: B:113:0x0259 in android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 19:56:28] [ERROR] Inconsistent code in method: android.support.v4.content.LocalBroadcastManager.sendBroadcast(android.content.Intent):boolean
+[2016-09-17 19:56:28] [ERROR] Inconsistent code in method: android.support.v4.content.LocalBroadcastManager.executePendingBroadcasts():void
+[2016-09-17 19:56:29] [ERROR] Inconsistent code in method: android.support.v4.util.LruCache.get(java.lang.Object):V
+[2016-09-17 19:56:29] [ERROR] Inconsistent code in method: android.support.v4.util.LruCache.trimToSize(int):void
+[2016-09-17 19:56:32] [WARN] Finally extract failed: remBlock pred: B:6:0x001f, [B:5:0x001e, B:4:0x001c], method: cn.gov.pbc.tsm.client.mobile.android.bank.service.a.a.a.a():boolean
+[2016-09-17 19:56:32] [WARN] Finally extract failed: remBlock pred: B:6:0x001f, [B:5:0x001e, B:4:0x001c], method: cn.gov.pbc.tsm.client.mobile.android.bank.service.a.a.a.b():boolean
+[2016-09-17 19:56:32] [WARN] Finally extract failed: remBlock pred: B:6:0x0023, [B:5:0x0022, B:4:0x0020], method: cn.gov.pbc.tsm.client.mobile.android.bank.service.a.a.a.b(java.lang.String):boolean
+[2016-09-17 19:56:35] [WARN] Finally extract failed: remBlock pred: B:6:0x001f, [B:5:0x001e, B:4:0x001c], method: com.alipay.android.app.IRemoteServiceCallback.Stub.a.isHideLoadingScreen():boolean
+[2016-09-17 19:56:36] [ERROR] Failed to process nested try/catch in method: com.alipay.android.phone.mrpc.core.q.d():com.alipay.android.phone.mrpc.core.u
+[2016-09-17 19:56:36] [ERROR] Inconsistent code in method: com.alipay.android.phone.mrpc.core.q.d():com.alipay.android.phone.mrpc.core.u
+[2016-09-17 19:56:37] [WARN] Several 'all' handlers in try/catch block in com.alipay.apmobilesecuritysdk.a.a.a(java.util.Map):java.lang.String
+[2016-09-17 19:56:37] [WARN] Several 'all' handlers in try/catch block in com.alipay.apmobilesecuritysdk.a.a.a(java.util.Map):java.lang.String
+[2016-09-17 19:56:37] [WARN] Finally extract failed: remBlock pred: B:25:0x00e6, [B:24:0x00ae, B:23:0x00ac], method: com.alipay.apmobilesecuritysdk.face.APSecuritySdk.RunningTask.run():void
+[2016-09-17 19:56:37] [ERROR] Inconsistent code in method: com.alipay.apmobilesecuritysdk.face.APSecuritySdk.RunningTask.run():void
+[2016-09-17 19:56:37] [ERROR] Failed to process nested try/catch in method: com.alipay.sdk.sys.b.a(java.lang.String[]):java.lang.String
+[2016-09-17 19:56:37] [WARN] No exception handlers in catch block, method: com.alipay.sdk.util.k.c():java.lang.String
+[2016-09-17 19:56:38] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.alipay.sdk.util.b.<init>(android.content.Context):void
+[2016-09-17 19:56:38] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.alipay.sdk.tid.a.a(java.lang.String, java.lang.String):void
+[2016-09-17 19:56:38] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.alipay.sdk.tid.a.a(java.lang.String, java.lang.String, java.lang.String, java.lang.String):void
+[2016-09-17 19:56:38] [WARN] Several 'all' handlers in try/catch block in com.alipay.sdk.app.PayTask.c(java.lang.String):java.lang.String
+[2016-09-17 19:56:38] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.alipay.sdk.auth.i.run():void
+[2016-09-17 19:56:39] [ERROR] Failed to process nested try/catch in method: com.alipay.sdk.net.c.a(org.apache.http.HttpResponse):java.lang.String
+[2016-09-17 19:56:39] [ERROR] Failed to process nested try/catch in method: com.alipay.sdk.net.c.a(org.apache.http.HttpResponse):java.lang.String
+[2016-09-17 19:56:39] [ERROR] Inconsistent code in method: com.alipay.sdk.net.c.a(org.apache.http.HttpResponse):java.lang.String
+[2016-09-17 19:56:39] [ERROR] Inconsistent code in method: com.alipay.sdk.sys.b.a(java.lang.String[]):java.lang.String
+[2016-09-17 19:56:39] [WARN] Several 'all' handlers in try/catch block in com.alipay.sdk.util.h.a(java.lang.String, android.content.Intent):java.lang.String
+[2016-09-17 19:56:39] [WARN] Finally extract failed: remBlock pred: B:7:0x0016, [B:6:0x000f, B:3:0x0005, B:5:0x000d], method: com.alipay.sdk.widget.c.run():void
+[2016-09-17 19:56:39] [ERROR] Inconsistent code in method: com.alipay.sdk.widget.c.run():void
+[2016-09-17 19:56:39] [ERROR] Failed to process nested try/catch in method: com.alipay.security.mobile.module.a.b.a(java.lang.String, java.lang.String):java.lang.String
+[2016-09-17 19:56:39] [ERROR] Inconsistent code in method: com.alipay.security.mobile.module.a.b.a(java.lang.String, java.lang.String):java.lang.String
+[2016-09-17 19:56:40] [ERROR] Inconsistent code in method: com.alipay.security.mobile.module.b.a.k():java.lang.String
+[2016-09-17 19:56:41] [WARN] Finally extract failed: remBlock pred: B:6:0x0026, [B:5:0x0025, B:4:0x0023], method: com.baidu.android.pushservice.b.a.a.a.a(java.lang.String, java.lang.String):boolean
+[2016-09-17 19:56:41] [WARN] Finally extract failed: remBlock pred: B:6:0x0029, [B:5:0x0028, B:4:0x0026], method: com.baidu.android.pushservice.b.a.a.a.a(java.lang.String, java.lang.String, int):boolean
+[2016-09-17 19:56:41] [WARN] Finally extract failed: remBlock pred: B:6:0x002c, [B:5:0x002b, B:4:0x0029], method: com.baidu.android.pushservice.b.a.a.a.a(java.lang.String, java.lang.String, java.lang.String, java.lang.String):boolean
+[2016-09-17 19:56:41] [WARN] Finally extract failed: remBlock pred: B:8:0x0029, [B:7:0x0027, B:11:0x0032], method: com.baidu.android.pushservice.b.a.a.a.a(java.lang.String, boolean):boolean
+[2016-09-17 19:56:41] [WARN] Finally extract failed: remBlock pred: B:6:0x0026, [B:5:0x0025, B:4:0x0023], method: com.baidu.android.pushservice.b.a.a.a.b(java.lang.String, java.lang.String):boolean
+[2016-09-17 19:56:41] [WARN] Finally extract failed: remBlock pred: B:6:0x0023, [B:5:0x0022, B:4:0x0020], method: com.baidu.android.pushservice.b.a.a.a.e(java.lang.String):boolean
+[2016-09-17 19:56:41] [ERROR] Failed to process nested try/catch in method: com.baidu.android.pushservice.util.PushDatabase.getAppInfo(android.content.Context):java.util.List<com.baidu.android.pushservice.f.k>
+[2016-09-17 19:56:41] [ERROR] Failed to process nested try/catch in method: com.baidu.android.pushservice.util.PushDatabase.getFileDownloadingInfo(android.content.Context, java.lang.String):com.baidu.android.pushservice.util.PushDatabase$g
+[2016-09-17 19:56:42] [WARN] Finally extract failed: remBlock pred: B:4:0x0006, [B:2:0x0002, B:3:0x0004], method: com.baidu.android.pushservice.richmedia.b.a(com.baidu.android.pushservice.richmedia.p):void
+[2016-09-17 19:56:42] [WARN] No exception handlers in catch block, method: com.baidu.android.pushservice.c.b.a(com.baidu.android.pushservice.c.h, boolean, java.util.ArrayList, java.lang.String):java.lang.String
+[2016-09-17 19:56:42] [ERROR] Block not found by B:63:0x00da, in BRI start: (B:37:?, B:43:?), end: null, list: [(B:37:?, B:43:?)], outs: [(B:38:0x00b6, B:44:0x00da)], regMap: {}, split: 0, method: com.baidu.android.pushservice.a.a.a.a(android.net.Uri[]):android.graphics.Bitmap[]
+[2016-09-17 19:56:42] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.a.a.a.a(android.net.Uri[]):android.graphics.Bitmap[]
+[2016-09-17 19:56:43] [WARN] Finally extract failed: remBlock pred: B:43:0x0167, [B:42:0x0162, B:41:0x0160], method: com.baidu.android.pushservice.d.a.b(int):int
+[2016-09-17 19:56:43] [WARN] Unknown top splitter block from list: {B:44:0x01c9=Splitter: B:44:0x01c9, B:51:0x01e5=Splitter: B:51:0x01e5}
+[2016-09-17 19:56:43] [ERROR] Block not found by B:30:0x0086, in BRI start: (B:15:?, B:23:?), end: null, list: [(B:15:?, B:23:?)], outs: [(B:16:0x0045, B:24:0x0086)], regMap: {}, split: 0, method: com.baidu.frontia.a.d.b.a(java.io.InputStream):java.lang.String
+[2016-09-17 19:56:43] [WARN] No exception handlers in catch block, method: com.baidu.android.pushservice.c.e.a(com.baidu.android.pushservice.c.a, boolean):java.lang.String
+[2016-09-17 19:56:43] [WARN] Finally extract failed: remBlock pred: B:19:0x005e, [B:18:0x0053, B:11:0x0039, B:13:0x003f, B:15:0x004b, B:17:0x0051], method: com.baidu.android.pushservice.e.p.a(android.content.Context, java.lang.String, java.lang.String, boolean):byte[]
+[2016-09-17 19:56:43] [ERROR] NullPointerException in pass: SSATransform in method: com.baidu.android.pushservice.e.p.a(android.content.Context, java.lang.String, java.lang.String, boolean):byte[]
+[2016-09-17 19:56:44] [WARN] Finally extract failed: remBlock pred: B:29:0x0104, [B:28:0x00f4, B:27:0x00f2], method: com.baidu.android.pushservice.d.o.b():java.util.ArrayList<java.lang.Integer>
+[2016-09-17 19:56:44] [WARN] Unknown top splitter block from list: {B:50:0x00cf=Splitter: B:50:0x00cf, B:27:0x0073=Splitter: B:27:0x0073, B:87:0x015d=Splitter: B:87:0x015d}
+[2016-09-17 19:56:44] [ERROR] Failed to process nested try/catch in method: com.baidu.android.pushservice.db.a.a(java.lang.String, int):java.util.ArrayList<java.lang.String>
+[2016-09-17 19:56:44] [ERROR] Failed to process nested try/catch in method: com.baidu.android.pushservice.db.a.b(java.lang.String, int):boolean
+[2016-09-17 19:56:44] [ERROR] Failed to process nested try/catch in method: com.baidu.android.pushservice.db.a.l(java.lang.String):com.baidu.android.pushservice.f.h
+[2016-09-17 19:56:44] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.db.a.a(int, int):java.lang.String
+[2016-09-17 19:56:44] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.db.a.a(java.lang.String, int):java.util.ArrayList<java.lang.String>
+[2016-09-17 19:56:44] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.db.a.b(java.lang.String, int):boolean
+[2016-09-17 19:56:44] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.db.a.l(java.lang.String):com.baidu.android.pushservice.f.h
+[2016-09-17 19:56:45] [WARN] Unknown top splitter block from list: {B:19:0x0057=Splitter: B:19:0x0057, B:7:0x0029=Splitter: B:7:0x0029}
+[2016-09-17 19:56:45] [WARN] Finally extract failed: remBlock pred: B:26:0x0075, [B:25:0x0074, B:35:0x008c], method: com.baidu.android.pushservice.f.a.b.a(android.content.Context, java.lang.String, java.lang.String, long):int
+[2016-09-17 19:56:45] [WARN] Finally extract failed: remBlock pred: B:13:0x0062, [B:12:0x004a, B:11:0x0048], method: com.baidu.android.pushservice.f.a.b.a(android.content.Context, boolean):void
+[2016-09-17 19:56:45] [WARN] Finally extract failed: remBlock pred: B:26:0x0072, [B:25:0x006b, B:24:0x0069], method: com.baidu.android.pushservice.f.a.b.b(android.content.Context, java.lang.String, java.lang.String, long):int
+[2016-09-17 19:56:45] [WARN] Finally extract failed: remBlock pred: B:14:0x0037, [B:13:0x0030, B:12:0x002e], method: com.baidu.android.pushservice.f.a.b.b(android.content.Context, java.lang.String):java.lang.String
+[2016-09-17 19:56:45] [ERROR] NullPointerException in pass: SSATransform in method: com.baidu.android.pushservice.f.a.b.a(android.content.Context, java.lang.String, java.lang.String, long):int
+[2016-09-17 19:56:45] [WARN] Finally extract failed: remBlock pred: B:14:0x00a0, [B:13:0x0090, B:12:0x008e], method: com.baidu.android.pushservice.message.h.run():void
+[2016-09-17 19:56:45] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.richmedia.n.equals(java.lang.Object):boolean
+[2016-09-17 19:56:46] [ERROR] Inconsistent code in method: com.baidu.frontia.a.d.b.a(java.io.InputStream):java.lang.String
+[2016-09-17 19:56:48] [ERROR] IndexOutOfBoundsException in pass: LoopRegionVisitor in method: com.google.gson.internal.Excluder.withModifiers(int[]):com.google.gson.internal.Excluder
+[2016-09-17 19:56:49] [WARN] Unknown top splitter block from list: {B:22:0x00b8=Splitter: B:22:0x00b8, B:33:0x00d7=Splitter: B:33:0x00d7}
+[2016-09-17 19:56:50] [ERROR] Block not found by B:32:0x0033, in BRI start: (B:6:?, B:22:?), end: null, list: [(B:6:?, B:22:?)], outs: [(B:7:0x0019, B:23:0x0033)], regMap: {}, split: 0, method: com.pay.alipay.BaseHelper.convertStreamToString(java.io.InputStream):java.lang.String
+[2016-09-17 19:56:50] [ERROR] Inconsistent code in method: com.pay.alipay.BaseHelper.convertStreamToString(java.io.InputStream):java.lang.String
+[2016-09-17 19:56:51] [ERROR] Can't fix incorrect switch cases order, method: com.ta.utdid2.b.a.b.b.a(byte[], int):boolean
+[2016-09-17 19:56:51] [ERROR] Can't fix incorrect switch cases order, method: com.ta.utdid2.b.a.b.c.a(byte[], int):boolean
+[2016-09-17 19:56:51] [ERROR] Inconsistent code in method: com.ta.utdid2.b.a.b.b.a(byte[], int):boolean
+[2016-09-17 19:56:51] [ERROR] Inconsistent code in method: com.ta.utdid2.b.a.b.c.a(byte[], int):boolean
+[2016-09-17 19:56:51] [ERROR] Inconsistent code in method: com.ta.utdid2.device.c.a():java.lang.String
+[2016-09-17 19:56:52] [ERROR] Inconsistent code in method: com.tencent.mm.sdk.b.c.trimToSize(int):void
+[2016-09-17 19:56:53] [ERROR] JadxRuntimeException in pass: RegionMakerVisitor in method: com.tencent.wxop.stat.t.a(com.tencent.wxop.stat.a.d, com.tencent.wxop.stat.aj, boolean, boolean):void
+[2016-09-17 19:56:53] [ERROR] JadxRuntimeException in pass: RegionMakerVisitor in method: com.tencent.wxop.stat.t.a(java.util.List, boolean):void
+[2016-09-17 19:56:53] [ERROR] JadxRuntimeException in pass: RegionMakerVisitor in method: com.tencent.wxop.stat.t.am():void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.ac.a(android.database.sqlite.SQLiteDatabase):void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.ac.b(android.database.sqlite.SQLiteDatabase):void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.ac.b(android.database.sqlite.SQLiteDatabase):void
+[2016-09-17 19:56:53] [WARN] Missing exception handler attribute for start block
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.ak.a(java.util.List, com.tencent.wxop.stat.aj):void
+[2016-09-17 19:56:53] [ERROR] Can't fix incorrect switch cases order, method: com.tencent.wxop.stat.b.k.a(byte[], int):boolean
+[2016-09-17 19:56:53] [ERROR] Can't fix incorrect switch cases order, method: com.tencent.wxop.stat.b.j.a(byte[], int):boolean
+[2016-09-17 19:56:53] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:56:53] [WARN] No exception handlers in catch block, method: com.tencent.wxop.stat.k.run():void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.o.a(java.lang.String, int):com.tencent.wxop.stat.b
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.I():void
+[2016-09-17 19:56:53] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.a(com.tencent.wxop.stat.ah):void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.a(java.util.List, int, boolean):void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.an():void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.b(java.util.List, int, boolean):void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.b(java.util.List, int, boolean):void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.b(boolean):void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.b(boolean):void
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.t(android.content.Context):com.tencent.wxop.stat.b.c
+[2016-09-17 19:56:53] [WARN] Several 'all' handlers in try/catch block in com.tencent.wxop.stat.t.t(android.content.Context):com.tencent.wxop.stat.b.c
+[2016-09-17 19:56:59] [ERROR] Block not found by B:32:0x009e, in BRI start: (B:13:?, B:25:?), end: null, list: [(B:13:?, B:25:?)], outs: [(B:14:0x007f, B:26:0x009e)], regMap: {(r1 java.lang.String)=(r2 java.lang.String), (r0 cn.gov.pbc.tsm.client.mobile.android.bank.service.a)=(r1 cn.gov.pbc.tsm.client.mobile.android.bank.service.a)}, split: 0, method: com.unionpay.mobile.android.pboctransaction.icfcc.a.a(com.unionpay.mobile.android.pboctransaction.d):java.util.ArrayList<com.unionpay.mobile.android.model.c>
+[2016-09-17 19:57:00] [ERROR] Block not found by B:44:0x004c, in BRI start: (B:6:?, B:29:?), end: null, list: [(B:6:?, B:29:?)], outs: [(B:7:0x0021, B:30:0x004c)], regMap: {}, split: 0, method: com.utils.HttpDownloader.downFile(java.lang.String, java.lang.String, java.lang.String):int
+[2016-09-17 19:57:00] [ERROR] Inconsistent code in method: com.utils.HttpDownloader.downFile(java.lang.String, java.lang.String, java.lang.String):int
+[2016-09-17 19:57:07] [WARN] Several 'all' handlers in try/catch block in org.dom4j.tree.NamespaceCache.<clinit>():void
+[2016-09-17 19:57:07] [ERROR] Can't fix incorrect switch cases order, method: org.json.alipay.c.c():char
+[2016-09-17 19:57:07] [ERROR] Inconsistent code in method: org.json.alipay.c.c():char
+[2016-09-17 19:57:07] [ERROR] Inconsistent code in method: android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 19:57:07] [ERROR] Inconsistent code in method: android.support.v4.app.FragmentManagerImpl.execPendingActions():boolean
+[2016-09-17 19:57:08] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.PushSDK.handleOnStart(android.content.Intent):boolean
+[2016-09-17 19:57:08] [ERROR] Block not found by B:37:0x00a9, in BRI start: (B:5:?, B:26:?), end: null, list: [(B:5:?, B:26:?)], outs: [(B:6:0x001b, B:27:0x00a9)], regMap: {}, split: 0, method: com.baidu.android.pushservice.message.f.a(long, int):byte[]
+[2016-09-17 19:57:08] [ERROR] Block not found by B:53:0x0107, in BRI start: (B:17:?, B:41:?), end: null, list: [(B:17:?, B:41:?)], outs: [(B:18:0x005f, B:42:0x0107)], regMap: {}, split: 0, method: com.baidu.android.pushservice.message.f.a(short, byte[]):byte[]
+[2016-09-17 19:57:08] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.message.f.a(long, int):byte[]
+[2016-09-17 19:57:08] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.message.f.a(short, byte[]):byte[]
+[2016-09-17 19:57:08] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.util.PushDatabase.getAppInfo(android.content.Context):java.util.List<com.baidu.android.pushservice.f.k>
+[2016-09-17 19:57:08] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.util.PushDatabase.getDbOpenHelper(android.content.Context):com.baidu.android.pushservice.util.PushDatabase$e
+[2016-09-17 19:57:08] [ERROR] Inconsistent code in method: com.baidu.android.pushservice.util.PushDatabase.getFileDownloadingInfo(android.content.Context, java.lang.String):com.baidu.android.pushservice.util.PushDatabase$g
+[2016-09-17 19:57:08] [ERROR] Inconsistent code in method: com.tencent.wxop.stat.b.j.a(byte[], int):boolean
+[2016-09-17 19:57:08] [ERROR] Inconsistent code in method: com.tencent.wxop.stat.b.k.a(byte[], int):boolean
+[2016-09-17 19:57:09] [ERROR] Inconsistent code in method: com.unionpay.mobile.android.pboctransaction.icfcc.a.a(com.unionpay.mobile.android.pboctransaction.d):java.util.ArrayList<com.unionpay.mobile.android.model.c>
+[2016-09-17 19:57:09] [ERROR] JadxRuntimeException in pass: EliminatePhiNodes in method: com.unionpay.mobile.android.widgets.bc.<init>(android.content.Context, int, org.json.JSONObject):void
+[2016-09-17 19:57:12] [ERROR] Inconsistent code in method: com.unionpay.mobile.android.nocard.views.l.A():void
+[2016-09-17 19:57:22] [WARN] Resource 'assets/srmj.jpg' not saved, unknown type
+[2016-09-17 19:57:23] [WARN] Found 27 references to unknown classes
+[2016-09-17 19:57:23] [ERROR] 58 errors occurred in following nodes:
+[2016-09-17 19:57:23] [ERROR]   Method: android.support.v4.app.FragmentManagerImpl.execPendingActions():boolean
+[2016-09-17 19:57:23] [ERROR]   Method: android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 19:57:23] [ERROR]   Method: android.support.v4.content.LocalBroadcastManager.executePendingBroadcasts():void
+[2016-09-17 19:57:23] [ERROR]   Method: android.support.v4.content.LocalBroadcastManager.sendBroadcast(android.content.Intent):boolean
+[2016-09-17 19:57:23] [ERROR]   Method: android.support.v4.util.LruCache.get(java.lang.Object):V
+[2016-09-17 19:57:23] [ERROR]   Method: android.support.v4.util.LruCache.trimToSize(int):void
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.android.phone.mrpc.core.q.d():com.alipay.android.phone.mrpc.core.u
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.apmobilesecuritysdk.face.APSecuritySdk.RunningTask.run():void
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.sdk.auth.i.run():void
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.sdk.net.c.a(org.apache.http.HttpResponse):java.lang.String
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.sdk.sys.b.a(java.lang.String[]):java.lang.String
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.sdk.tid.a.a(java.lang.String, java.lang.String):void
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.sdk.tid.a.a(java.lang.String, java.lang.String, java.lang.String, java.lang.String):void
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.sdk.util.b.<init>(android.content.Context):void
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.sdk.widget.c.run():void
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.security.mobile.module.a.b.a(java.lang.String, java.lang.String):java.lang.String
+[2016-09-17 19:57:23] [ERROR]   Method: com.alipay.security.mobile.module.b.a.k():java.lang.String
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.PushSDK.handleOnStart(android.content.Intent):boolean
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.a.a.a.a(android.net.Uri[]):android.graphics.Bitmap[]
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.db.a.a(int, int):java.lang.String
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.db.a.a(java.lang.String, int):java.util.ArrayList<java.lang.String>
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.db.a.b(java.lang.String, int):boolean
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.db.a.l(java.lang.String):com.baidu.android.pushservice.f.h
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.e.p.a(android.content.Context, java.lang.String, java.lang.String, boolean):byte[]
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.f.a.b.a(android.content.Context, java.lang.String, java.lang.String, long):int
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.message.f.a(long, int):byte[]
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.message.f.a(short, byte[]):byte[]
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.richmedia.n.equals(java.lang.Object):boolean
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.util.PushDatabase.getAppInfo(android.content.Context):java.util.List<com.baidu.android.pushservice.f.k>
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.util.PushDatabase.getDbOpenHelper(android.content.Context):com.baidu.android.pushservice.util.PushDatabase$e
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.android.pushservice.util.PushDatabase.getFileDownloadingInfo(android.content.Context, java.lang.String):com.baidu.android.pushservice.util.PushDatabase$g
+[2016-09-17 19:57:23] [ERROR]   Method: com.baidu.frontia.a.d.b.a(java.io.InputStream):java.lang.String
+[2016-09-17 19:57:23] [ERROR]   Method: com.google.gson.internal.Excluder.withModifiers(int[]):com.google.gson.internal.Excluder
+[2016-09-17 19:57:23] [ERROR]   Method: com.pay.alipay.BaseHelper.convertStreamToString(java.io.InputStream):java.lang.String
+[2016-09-17 19:57:23] [ERROR]   Method: com.ta.utdid2.b.a.b.b.a(byte[], int):boolean
+[2016-09-17 19:57:23] [ERROR]   Method: com.ta.utdid2.b.a.b.c.a(byte[], int):boolean
+[2016-09-17 19:57:23] [ERROR]   Method: com.ta.utdid2.device.c.a():java.lang.String
+[2016-09-17 19:57:23] [ERROR]   Method: com.tencent.mm.sdk.b.c.trimToSize(int):void
+[2016-09-17 19:57:23] [ERROR]   Method: com.tencent.wxop.stat.b.j.a(byte[], int):boolean
+[2016-09-17 19:57:23] [ERROR]   Method: com.tencent.wxop.stat.b.k.a(byte[], int):boolean
+[2016-09-17 19:57:23] [ERROR]   Method: com.tencent.wxop.stat.t.a(com.tencent.wxop.stat.a.d, com.tencent.wxop.stat.aj, boolean, boolean):void
+[2016-09-17 19:57:23] [ERROR]   Method: com.tencent.wxop.stat.t.a(java.util.List, boolean):void
+[2016-09-17 19:57:23] [ERROR]   Method: com.tencent.wxop.stat.t.am():void
+[2016-09-17 19:57:23] [ERROR]   Method: com.unionpay.mobile.android.nocard.views.l.A():void
+[2016-09-17 19:57:23] [ERROR]   Method: com.unionpay.mobile.android.pboctransaction.icfcc.a.a(com.unionpay.mobile.android.pboctransaction.d):java.util.ArrayList<com.unionpay.mobile.android.model.c>
+[2016-09-17 19:57:23] [ERROR]   Method: com.unionpay.mobile.android.widgets.bc.<init>(android.content.Context, int, org.json.JSONObject):void
+[2016-09-17 19:57:23] [ERROR]   Method: com.utils.HttpDownloader.downFile(java.lang.String, java.lang.String, java.lang.String):int
+[2016-09-17 19:57:23] [ERROR]   Method: org.json.alipay.c.c():char
+[2016-09-17 19:57:23] [ERROR] finished with errors-finsh decode:51b3bdab4b51b0614ef5a6863767db61.apk
+[2016-09-17 19:57:23,531] [INFO] codeSort.py:100 run -begin to find key codeblock in 51b3bdab4b51b0614ef5a6863767db61.apk source
+[2016-09-17 19:57:23,532] [INFO] codeSort.py:38 getRegularExpression
+[2016-09-17 19:57:23,533] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:23,533] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:25,074] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:25,074] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:25,074] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:25,401] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:25,438] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:26,558] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 19:57:26,558] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:26,559] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:26,559] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:27,990] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:27,991] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:27,991] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:29,404] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:29,404] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:29,404] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:30,817] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:30,817] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:30,817] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:32,317] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:32,318] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:32,318] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:32,523] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,528] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,530] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,547] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,556] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,559] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,583] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,661] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,668] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,713] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:32,716] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:33,645] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:33,679] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:33,699] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:33,707] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:33,767] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:33,831] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 19:57:33,831] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:33,831] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:33,831] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:35,310] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:35,310] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:35,310] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:35,469] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:35,485] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:35,500] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:35,542] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:35,552] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:35,644] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:35,732] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:35,737] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:35,742] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:36,680] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:36,685] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:36,712] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:36,731] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:36,736] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:36,760] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:36,805] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:36,916] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 19:57:36,916] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:36,916] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:36,916] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:37,223] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:38,423] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:38,435] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:38,451] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:38,577] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 19:57:38,577] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:38,577] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:38,577] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:38,800] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:39,992] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:40,035] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:40,143] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 19:57:40,143] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:40,143] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:40,144] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:45,214] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:45,214] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:45,214] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:46,842] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:46,843] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:46,843] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:48,402] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:48,411] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 19:57:48,576] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 19:57:48,577] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:48,577] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 19:57:48,577] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 19:57:48,656] [INFO] codeSort.py:29 clear
+[2016-09-17 19:57:48,657] [INFO] codeSort.py:118 finish find key codeblock in 51b3bdab4b51b0614ef5a6863767db61.apk source
+[2016-09-17 19:57:48,853] [INFO] actionPraser.py:68 run -begin to find permission and action in 51b3bdab4b51b0614ef5a6863767db61.apk xml
+[2016-09-17 19:57:48,853] [INFO] actionPraser.py:53 getPermission
+[2016-09-17 19:57:48,854] [INFO] actionPraser.py:33 parseTag
+[2016-09-17 19:57:48,854] [INFO] actionPraser.py:49 getAction
+[2016-09-17 19:57:48,855] [INFO] actionPraser.py:33 parseTag
+[2016-09-17 19:57:48,855] [INFO] actionPraser.py:86 finish find permission and action in 51b3bdab4b51b0614ef5a6863767db61.apk xml
+[2016-09-17 19:57:52] [INFO] loading ...-begin to decode:635687ede0d58e4e77643dd954bd4141.apk
+[2016-09-17 19:57:57] [INFO] processing ...
+[2016-09-17 19:58:01] [WARN] Can't detect out node for switch block: B:27:0x003f in android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 19:58:01] [WARN] Can't detect out node for switch block: B:119:0x02c3 in android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 19:58:06] [ERROR] Inconsistent code in method: android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 19:58:06] [ERROR] Inconsistent code in method: android.support.v4.app.FragmentManagerImpl.execPendingActions():boolean
+[2016-09-17 19:58:09] [ERROR] Inconsistent code in method: android.support.v4.content.LocalBroadcastManager.sendBroadcast(android.content.Intent):boolean
+[2016-09-17 19:58:09] [ERROR] Inconsistent code in method: android.support.v4.content.LocalBroadcastManager.executePendingBroadcasts():void
+[2016-09-17 19:58:09] [WARN] Can't detect out node for switch block: B:8:0x0015 in android.support.v4.media.RatingCompat.getRating():java.lang.Object
+[2016-09-17 19:58:09] [ERROR] Inconsistent code in method: android.support.v4.media.RatingCompat.getRating():java.lang.Object
+[2016-09-17 19:58:10] [WARN] Finally extract failed: remBlock pred: B:6:0x001e, [B:5:0x001d, B:7:0x0022], method: android.support.v4.provider.DocumentsContractApi19.exists(android.content.Context, android.net.Uri):boolean
+[2016-09-17 19:58:10] [ERROR] NullPointerException in pass: SSATransform in method: android.support.v4.provider.DocumentsContractApi19.exists(android.content.Context, android.net.Uri):boolean
+[2016-09-17 19:58:13] [ERROR] Inconsistent code in method: android.support.v4.util.LruCache.get(java.lang.Object):V
+[2016-09-17 19:58:13] [ERROR] Inconsistent code in method: android.support.v4.util.LruCache.trimToSize(int):void
+[2016-09-17 19:58:16] [ERROR] Inconsistent code in method: android.support.v4.widget.ViewDragHelper.processTouchEvent(android.view.MotionEvent):void
+[2016-09-17 19:58:16] [ERROR] Failed to process nested try/catch in method: cn.egame.terminal.paysdk.EgameLaunchActivity.getBitmap(java.lang.String):android.graphics.Bitmap
+[2016-09-17 19:58:16] [ERROR] Inconsistent code in method: cn.egame.terminal.paysdk.EgameLaunchActivity.getBitmap(java.lang.String):android.graphics.Bitmap
+[2016-09-17 19:58:16] [ERROR] Can't fix incorrect switch cases order, method: cn.egame.terminal.paysdk.codec.Base64.Decoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:16] [ERROR] JadxOverflowException in pass: RegionMakerVisitor in method: cn.egame.terminal.paysdk.codec.Base64.Encoder.process(byte[], int, int, boolean):boolean, message: Regions stack size limit reached
+[2016-09-17 19:58:16] [ERROR] Inconsistent code in method: cn.egame.terminal.paysdk.codec.Base64.Decoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:16] [WARN] Unknown top splitter block from list: {B:22:0x0060=Splitter: B:22:0x0060, B:77:0x012a=Splitter: B:77:0x012a, B:68:0x010d=Splitter: B:68:0x010d}
+[2016-09-17 19:58:17] [WARN] Finally extract failed: remBlock pred: B:6:0x001f, [B:5:0x001e, B:4:0x001c], method: cn.gov.pbc.tsm.client.mobile.android.bank.service.a.a.a.a():boolean
+[2016-09-17 19:58:17] [WARN] Finally extract failed: remBlock pred: B:6:0x001f, [B:5:0x001e, B:4:0x001c], method: cn.gov.pbc.tsm.client.mobile.android.bank.service.a.a.a.b():boolean
+[2016-09-17 19:58:17] [WARN] Finally extract failed: remBlock pred: B:6:0x0023, [B:5:0x0022, B:4:0x0020], method: cn.gov.pbc.tsm.client.mobile.android.bank.service.a.a.a.b(java.lang.String):boolean
+[2016-09-17 19:58:17] [WARN] Finally extract failed: remBlock pred: B:6:0x001f, [B:5:0x001e, B:4:0x001c], method: com.alipay.android.app.IRemoteServiceCallback.Stub.a.isHideLoadingScreen():boolean
+[2016-09-17 19:58:18] [ERROR] Failed to process nested try/catch in method: com.alipay.android.phone.mrpc.core.x.d():com.alipay.android.phone.mrpc.core.ab
+[2016-09-17 19:58:18] [ERROR] Inconsistent code in method: com.alipay.android.phone.mrpc.core.x.d():com.alipay.android.phone.mrpc.core.ab
+[2016-09-17 19:58:19] [WARN] Missing exception handler attribute for start block
+[2016-09-17 19:58:20] [WARN] Several 'all' handlers in try/catch block in com.alipay.apmobilesecuritysdk.e.e.a(android.content.Context, java.lang.String, java.lang.String):void
+[2016-09-17 19:58:20] [WARN] Finally extract failed: remBlock pred: B:7:0x00c3, [B:6:0x0057, B:5:0x0055], method: com.alipay.apmobilesecuritysdk.face.a.b.a():void
+[2016-09-17 19:58:20] [ERROR] Inconsistent code in method: com.alipay.apmobilesecuritysdk.face.a.b.a():void
+[2016-09-17 19:58:20] [WARN] Several 'all' handlers in try/catch block in com.alipay.apmobilesecuritysdk.face.b.run():void
+[2016-09-17 19:58:20] [WARN] Several 'all' handlers in try/catch block in com.alipay.apmobilesecuritysdk.face.b.run():void
+[2016-09-17 19:58:20] [WARN] Several 'all' handlers in try/catch block in com.alipay.apmobilesecuritysdk.face.b.run():void
+[2016-09-17 19:58:20] [ERROR] Failed to process nested try/catch in method: com.alipay.sdk.sys.b.a(java.lang.String[]):java.lang.String
+[2016-09-17 19:58:20] [WARN] No exception handlers in catch block, method: com.alipay.sdk.util.k.c():java.lang.String
+[2016-09-17 19:58:20] [ERROR] JadxRuntimeException in pass: BlockFinish in method: com.alipay.sdk.util.h.a(java.lang.String, android.content.Intent):java.lang.String
+[2016-09-17 19:58:20] [WARN] No exception handlers in catch block, method: com.alipay.sdk.util.h.a(java.lang.String):java.lang.String
+[2016-09-17 19:58:21] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.alipay.sdk.util.b.<init>(android.content.Context):void
+[2016-09-17 19:58:21] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.alipay.sdk.tid.a.d(java.lang.String, java.lang.String):void
+[2016-09-17 19:58:21] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.alipay.sdk.tid.a.a(java.lang.String, java.lang.String, java.lang.String, java.lang.String):void
+[2016-09-17 19:58:21] [WARN] Several 'all' handlers in try/catch block in com.alipay.sdk.app.PayTask.b(java.lang.String):java.lang.String
+[2016-09-17 19:58:21] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.alipay.sdk.auth.i.run():void
+[2016-09-17 19:58:22] [ERROR] Inconsistent code in method: com.alipay.sdk.sys.b.a(java.lang.String[]):java.lang.String
+[2016-09-17 19:58:22] [WARN] Several 'all' handlers in try/catch block in com.alipay.sdk.util.h.a(java.lang.String):java.lang.String
+[2016-09-17 19:58:22] [WARN] Finally extract failed: remBlock pred: B:7:0x0016, [B:6:0x000f, B:3:0x0005, B:5:0x000d], method: com.alipay.sdk.widget.c.run():void
+[2016-09-17 19:58:22] [ERROR] Inconsistent code in method: com.alipay.sdk.widget.c.run():void
+[2016-09-17 19:58:22] [ERROR] Inconsistent code in method: com.alipay.security.mobile.module.deviceinfo.b.m():java.lang.String
+[2016-09-17 19:58:22] [WARN] No exception handlers in catch block, method: com.boyaa.app.common.SDTools.saveBitmap(android.content.Context, java.lang.String, java.lang.String, android.graphics.Bitmap):boolean
+[2016-09-17 19:58:22] [ERROR] Inconsistent code in method: com.boyaa.app.common.SDTools.isExist(android.content.Context, java.lang.String, java.lang.String):boolean
+[2016-09-17 19:58:22] [ERROR] Inconsistent code in method: com.boyaa.app.common.SDTools.saveBitmap(android.content.Context, java.lang.String, java.lang.String, android.graphics.Bitmap):boolean
+[2016-09-17 19:58:23] [WARN] Unknown top splitter block from list: {B:86:0x01b8=Splitter: B:86:0x01b8, B:50:0x0123=Splitter: B:50:0x0123, B:82:0x01af=Splitter: B:82:0x01af, B:68:0x0163=Splitter: B:68:0x0163, B:71:0x0181=Splitter: B:71:0x0181, B:59:0x013b=Splitter: B:59:0x013b, B:63:0x015b=Splitter: B:63:0x015b, B:54:0x012c=Splitter: B:54:0x012c, B:75:0x0197=Splitter: B:75:0x0197}
+[2016-09-17 19:58:23] [WARN] Unknown top splitter block from list: {B:86:0x01b8=Splitter: B:86:0x01b8, B:63:0x015b=Splitter: B:63:0x015b, B:54:0x012c=Splitter: B:54:0x012c}
+[2016-09-17 19:58:23] [ERROR] Failed to process nested try/catch in method: com.boyaa.extension.Contacts.queryPhoneContacts():int
+[2016-09-17 19:58:23] [ERROR] Failed to process nested try/catch in method: com.boyaa.extension.Contacts.queryPhoneContacts():int
+[2016-09-17 19:58:23] [ERROR] Failed to process nested try/catch in method: com.boyaa.extension.Contacts.querySIMContacts():int
+[2016-09-17 19:58:23] [ERROR] Failed to process nested try/catch in method: com.boyaa.extension.Contacts.querySIMContacts():int
+[2016-09-17 19:58:23] [ERROR] Failed to process nested try/catch in method: com.boyaa.extension.Contacts.querySIMContacts():int
+[2016-09-17 19:58:23] [ERROR] Failed to process nested try/catch in method: com.boyaa.extension.Contacts.querySIMContacts():int
+[2016-09-17 19:58:23] [ERROR] Anonymous class already generated: com.boyaa.app.image.CameraUploadImage.1 in method: com.boyaa.app.image.CameraUploadImage.saveBitmap(android.graphics.Bitmap, android.os.Bundle):void
+[2016-09-17 19:58:24] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.boyaa.boyaaad.admanager.AdDataManagement.queryDownloadStatus():void
+[2016-09-17 19:58:24] [WARN] Unknown top splitter block from list: {B:27:0x0074=Splitter: B:27:0x0074, B:36:0x008c=Splitter: B:36:0x008c}
+[2016-09-17 19:58:24] [WARN] Unknown top splitter block from list: {B:26:0x0046=Splitter: B:26:0x0046, B:18:0x003c=Splitter: B:18:0x003c}
+[2016-09-17 19:58:24] [ERROR] Block not found by B:17:0x002b, in BRI start: (B:2:0x0014, B:11:0x0026), end: null, list: [(B:3:0x0016, B:12:0x0028), (B:2:0x0014, B:11:0x0026)], outs: [(B:14:0x0019, B:13:0x002b)], regMap: {}, split: 0, method: com.boyaa.boyaaad.widget.BoyaaGifImageView.getResourceId(android.content.res.TypedArray, android.content.Context, android.util.AttributeSet):int
+[2016-09-17 19:58:24] [ERROR] JadxRuntimeException in pass: BlockFinish in method: com.boyaa.boyaaad.widget.BoyaaGifImageView.getResourceId(android.content.res.TypedArray, android.content.Context, android.util.AttributeSet):int
+[2016-09-17 19:58:24] [WARN] Finally extract failed: remBlock pred: B:5:0x0013, [B:4:0x0011, B:12:0x0035, B:19:0x0051], method: com.boyaa.boyaaad.image.ImageLoadTask.run():void
+[2016-09-17 19:58:24] [ERROR] Inconsistent code in method: com.boyaa.boyaaad.image.ImageLoadTask.run():void
+[2016-09-17 19:58:25] [WARN] Finally extract failed: remBlock pred: B:24:0x011f, [B:23:?, B:21:0x011a], method: com.boyaa.ddzcamera.ui.CropImageActivity.rotate(android.graphics.Bitmap, int):android.graphics.Bitmap
+[2016-09-17 19:58:25] [WARN] No exception handlers in catch block, method: com.boyaa.ddzcamera.utils.BitmapUtils.Bitmap2ExternalStorage(android.content.Context, java.lang.String, java.lang.String, android.graphics.Bitmap):boolean
+[2016-09-17 19:58:25] [ERROR] Inconsistent code in method: com.boyaa.ddzcamera.utils.BitmapUtils.Bitmap2ExternalStorage(android.content.Context, java.lang.String, java.lang.String, android.graphics.Bitmap):boolean
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] Failed to process nested try/catch in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:26] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.boyaa.engineddz.LuaCallManager.11.run():void
+[2016-09-17 19:58:26] [WARN] Finally extract failed: remBlock pred: B:7:0x0041, [B:6:0x003f, B:11:0x0068, B:19:0x0074], method: com.boyaa.engineddz.LuaCallManager.syncUnBase64UngzipCheckJsonFormatForLua():void
+[2016-09-17 19:58:26] [ERROR] Inconsistent code in method: com.boyaa.engineddz.LuaCallManager.syncUnBase64UngzipCheckJsonFormatForLua():void
+[2016-09-17 19:58:27] [ERROR] Block not found by B:9:0x0027, in BRI start: (B:3:0x0017, B:10:0x0028), end: null, list: [(B:3:0x0017, B:10:0x0028)], outs: [(B:3:0x0017, B:10:0x0028)], regMap: {(r2 android.net.wifi.WifiManager$MulticastLock)=(r3 android.net.wifi.WifiManager$MulticastLock)}, split: 0, method: com.boyaa.entity.battle.wifi.WifiBroadcastListeningThread.run():void
+[2016-09-17 19:58:27] [ERROR] Inconsistent code in method: com.boyaa.entity.battle.wifi.WifiBroadcastListeningThread.run():void
+[2016-09-17 19:58:27] [ERROR] Inconsistent code in method: com.boyaa.extension.Contacts.queryPhoneContacts():int
+[2016-09-17 19:58:27] [ERROR] Inconsistent code in method: com.boyaa.extension.Contacts.querySIMContacts():int
+[2016-09-17 19:58:27] [ERROR] Failed to process nested try/catch in method: com.skymobi.pay.l.a(android.content.Context, java.lang.String, boolean, java.lang.String):boolean
+[2016-09-17 19:58:27] [ERROR] Failed to process nested try/catch in method: com.skymobi.pay.l.a(android.content.Context, java.lang.String, boolean, java.lang.String):boolean
+[2016-09-17 19:58:30] [ERROR] Inconsistent code in method: com.boyaa.godsdk.core.utils.NetworkUtils.getImsi2(android.content.Context):java.lang.String
+[2016-09-17 19:58:30] [ERROR] Inconsistent code in method: com.boyaa.godsdk.core.utils.SimUtils.getImsi2(android.content.Context):java.lang.String
+[2016-09-17 19:58:30] [WARN] Finally extract failed: remBlock pred: B:8:0x0080, [B:7:0x0055, B:4:0x0033, B:22:0x00fb, B:43:0x0174], method: com.boyaa.made.AppHttpGetUpdate.run():void
+[2016-09-17 19:58:30] [ERROR] Inconsistent code in method: com.boyaa.made.AppHttpGetUpdate.run():void
+[2016-09-17 19:58:31] [ERROR] Inconsistent code in method: com.boyaa.made.GLSurfaceView.GLThread.guardedRun():void
+[2016-09-17 19:58:31] [ERROR] Inconsistent code in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:58:31] [ERROR] Inconsistent code in method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:58:31] [WARN] No exception handlers in catch block, method: com.dtr.zxing.utils.BeepManager.buildMediaPlayer(android.content.Context):android.media.MediaPlayer
+[2016-09-17 19:58:31] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:58:32] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.igexin.a.a.d.e.a(com.igexin.a.a.d.d, boolean, boolean):boolean
+[2016-09-17 19:58:32] [WARN] Finally extract failed: remBlock pred: B:16:0x0047, [B:15:0x0046, B:6:0x0022, B:31:0x007c, B:57:0x0047], method: com.igexin.a.a.d.e.h():void
+[2016-09-17 19:58:32] [ERROR] JadxRuntimeException in pass: BlockFinish in method: com.igexin.a.a.d.e.h():void
+[2016-09-17 19:58:32] [WARN] Finally extract failed: remBlock pred: B:38:0x00b4, [B:37:0x009a, B:56:0x0135], method: com.igexin.a.a.b.a.a.e.a_():void
+[2016-09-17 19:58:32] [WARN] Finally extract failed: remBlock pred: B:7:0x0010, [B:6:0x000b, B:5:0x0009], method: com.igexin.a.a.b.a.a.d.a(boolean):void
+[2016-09-17 19:58:32] [ERROR] Inconsistent code in method: com.igexin.a.a.b.a.a.e.b(java.nio.channels.SocketChannel):long
+[2016-09-17 19:58:32] [ERROR] Block not found by B:74:0x00b3, in BRI start: (B:17:0x003f, B:49:0x009a), end: null, list: [(B:20:0x004b, B:52:0x00a6), (B:24:0x0053, B:56:0x00ae), (B:21:0x004d, B:53:0x00a8), (B:23:0x0051, B:55:0x00ac), (B:18:0x0046, B:50:0x00a1), (B:17:0x003f, B:49:0x009a), (B:22:0x004f, B:54:0x00aa), (B:19:0x0048, B:51:0x00a3)], outs: [(B:25:0x0058, B:57:0x00b3)], regMap: {(r0 com.igexin.a.a.d.e)=(r1 com.igexin.a.a.d.e), (r0 ?[int, OBJECT, ARRAY, boolean, byte, short, char])=(r1 ?[int, OBJECT, ARRAY, boolean, byte, short, char])}, split: 0, method: com.igexin.a.a.d.i.run():void
+[2016-09-17 19:58:32] [ERROR] JadxRuntimeException in pass: BlockFinish in method: com.igexin.a.a.d.i.run():void
+[2016-09-17 19:58:32] [WARN] Several 'all' handlers in try/catch block in com.igexin.a.a.b.g.e(byte[], int):byte[]
+[2016-09-17 19:58:32] [WARN] Finally extract failed: remBlock pred: B:6:0x0010, [B:5:0x000f, B:3:0x000a], method: com.igexin.a.a.d.f.c(com.igexin.a.a.d.d):boolean
+[2016-09-17 19:58:32] [WARN] Finally extract failed: remBlock pred: B:6:0x0010, [B:5:0x000f, B:3:0x000a], method: com.igexin.a.a.d.f.d(com.igexin.a.a.d.d):boolean
+[2016-09-17 19:58:32] [WARN] Finally extract failed: remBlock pred: B:8:0x001e, [B:7:0x001d, B:3:0x000f, B:5:0x0017], method: com.igexin.a.a.d.f.e(com.igexin.a.a.d.d):void
+[2016-09-17 19:58:32] [WARN] No exception handlers in catch block, method: com.igexin.a.a.d.g.b():com.igexin.a.a.d.d
+[2016-09-17 19:58:32] [ERROR] Failed to process nested try/catch in method: com.igexin.download.h.a(android.content.Context, long):boolean
+[2016-09-17 19:58:32] [ERROR] Can't fix incorrect switch cases order, method: com.igexin.download.DownloadProvider.query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String):android.database.Cursor
+[2016-09-17 19:58:32] [ERROR] Can't fix incorrect switch cases order, method: com.igexin.download.DownloadProvider.query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String):android.database.Cursor
+[2016-09-17 19:58:32] [ERROR] Inconsistent code in method: com.igexin.download.DownloadProvider.query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String):android.database.Cursor
+[2016-09-17 19:58:32] [WARN] No exception handlers in catch block, method: com.igexin.download.DownloadService.a(android.database.Cursor, int):boolean
+[2016-09-17 19:58:33] [ERROR] Failed to process nested try/catch in method: com.igexin.download.g.run():void
+[2016-09-17 19:58:33] [ERROR] Failed to process nested try/catch in method: com.igexin.download.g.run():void
+[2016-09-17 19:58:33] [ERROR] Failed to process nested try/catch in method: com.igexin.download.g.run():void
+[2016-09-17 19:58:33] [ERROR] Failed to process nested try/catch in method: com.igexin.download.g.run():void
+[2016-09-17 19:58:33] [ERROR] Failed to process nested try/catch in method: com.igexin.download.g.run():void
+[2016-09-17 19:58:36] [ERROR] Inconsistent code in method: com.igexin.download.f.run():void
+[2016-09-17 19:58:36] [ERROR] Inconsistent code in method: com.igexin.download.g.run():void
+[2016-09-17 19:58:36] [ERROR] Inconsistent code in method: com.igexin.download.h.a(java.lang.String, int, java.lang.String, int):java.lang.String
+[2016-09-17 19:58:36] [ERROR] Inconsistent code in method: com.igexin.download.h.a(android.content.Context, long):boolean
+[2016-09-17 19:58:36] [ERROR] Can't fix incorrect switch cases order, method: com.igexin.getuiext.service.d.a(com.igexin.download.DownloadInfo):void
+[2016-09-17 19:58:36] [ERROR] Inconsistent code in method: com.igexin.getuiext.service.d.a(com.igexin.download.DownloadInfo):void
+[2016-09-17 19:58:36] [WARN] Several 'all' handlers in try/catch block in com.igexin.getuiext.util.d.a(byte[], int):byte[]
+[2016-09-17 19:58:36] [WARN]  checkIterableForEach: Wrapped insn not found: 0x0075: INVOKE  (r3_7 java.lang.Object) = (r2_111 java.util.Iterator) java.util.Iterator.next():java.lang.Object type: INTERFACE, mth: com.igexin.push.a.a.b(android.database.sqlite.SQLiteDatabase):void
+[2016-09-17 19:58:37] [WARN]  checkIterableForEach: Wrapped insn not found: 0x00f3: INVOKE  (r0_35 java.lang.Object) = (r2_10 java.util.Iterator) java.util.Iterator.next():java.lang.Object type: INTERFACE, mth: com.igexin.push.core.a.f.b(java.lang.String, java.lang.String, java.lang.String):boolean
+[2016-09-17 19:58:37] [WARN]  checkIterableForEach: Wrapped insn not found: 0x00f3: INVOKE  (r0_35 java.lang.Object) = (r2_10 java.util.Iterator) java.util.Iterator.next():java.lang.Object type: INTERFACE, mth: com.igexin.push.core.a.f.b(java.lang.String, java.lang.String, java.lang.String):boolean
+[2016-09-17 19:58:37] [ERROR] Failed to process nested try/catch in method: com.igexin.push.b.b.a(java.lang.String, java.lang.String[], java.lang.String[], java.lang.String[], java.lang.String):android.database.Cursor
+[2016-09-17 19:58:37] [ERROR] Inconsistent code in method: com.igexin.push.b.b.a(java.lang.String, java.lang.String[], java.lang.String[], java.lang.String[], java.lang.String):android.database.Cursor
+[2016-09-17 19:58:37] [ERROR] Inconsistent code in method: com.igexin.push.core.a.c.a(java.lang.Object, org.json.JSONObject):boolean
+[2016-09-17 19:58:37] [ERROR] Failed to process nested try/catch in method: com.igexin.push.e.b.a.a():void
+[2016-09-17 19:58:37] [ERROR] Inconsistent code in method: com.igexin.push.e.b.a.a():void
+[2016-09-17 19:58:38] [WARN] Finally extract failed: remBlock pred: B:5:0x002b, [B:4:0x0029, B:7:0x0032], method: com.igexin.sdk.aidl.b.onAuthenticated(java.lang.String, java.lang.String, java.lang.String, long):boolean
+[2016-09-17 19:58:38] [WARN] Finally extract failed: remBlock pred: B:6:0x0022, [B:5:0x0021, B:4:0x001f], method: com.igexin.sdk.aidl.b.onError(int):boolean
+[2016-09-17 19:58:38] [ERROR] NoSuchElementException in pass: BlockFinallyExtract in method: com.skymobi.pay.e.a(java.lang.String):void
+[2016-09-17 19:58:40] [ERROR] Inconsistent code in method: com.skymobi.pay.i.a(android.content.Context, java.lang.String, boolean):void
+[2016-09-17 19:58:40] [ERROR] Inconsistent code in method: com.skymobi.pay.l.a(android.content.Context, java.lang.String, boolean, java.lang.String):boolean
+[2016-09-17 19:58:40] [ERROR] Can't fix incorrect switch cases order, method: com.ta.utdid2.android.utils.Base64.Decoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:40] [ERROR] Can't fix incorrect switch cases order, method: com.ta.utdid2.android.utils.Base64.Encoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:40] [ERROR] Inconsistent code in method: com.ta.utdid2.android.utils.Base64.Decoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:40] [ERROR] Inconsistent code in method: com.ta.utdid2.android.utils.Base64.Encoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:41] [ERROR] Failed to process nested try/catch in method: com.tencent.open.utils.HttpUtils.request(com.tencent.connect.auth.QQToken, android.content.Context, java.lang.String, android.os.Bundle, java.lang.String):org.json.JSONObject
+[2016-09-17 19:58:41] [ERROR] Failed to process nested try/catch in method: com.tencent.open.utils.HttpUtils.request(com.tencent.connect.auth.QQToken, android.content.Context, java.lang.String, android.os.Bundle, java.lang.String):org.json.JSONObject
+[2016-09-17 19:58:41] [ERROR] Failed to process nested try/catch in method: com.tencent.open.utils.HttpUtils.upload(com.tencent.connect.auth.QQToken, android.content.Context, java.lang.String, android.os.Bundle):org.json.JSONObject
+[2016-09-17 19:58:41] [ERROR] Failed to process nested try/catch in method: com.tencent.open.utils.HttpUtils.upload(com.tencent.connect.auth.QQToken, android.content.Context, java.lang.String, android.os.Bundle):org.json.JSONObject
+[2016-09-17 19:58:42] [ERROR] Block not found by B:48:0x0083, in BRI start: (B:30:?, B:38:?), end: null, list: [(B:30:?, B:38:?)], outs: [(B:31:0x006e, B:39:0x0083)], regMap: {}, split: 0, method: com.tencent.open.utils.OpenConfig.a(java.lang.String):java.lang.String
+[2016-09-17 19:58:42] [ERROR] Failed to process nested try/catch in method: com.tencent.open.b.g.4.run():void
+[2016-09-17 19:58:42] [ERROR] Failed to process nested try/catch in method: com.tencent.open.b.g.5.run():void
+[2016-09-17 19:58:42] [ERROR] Failed to process nested try/catch in method: com.tencent.open.b.g.5.run():void
+[2016-09-17 19:58:44] [ERROR] IndexOutOfBoundsException in pass: ModVisitor in method: com.tencent.map.b.a.a(java.lang.String, java.lang.String):boolean
+[2016-09-17 19:58:44] [ERROR] Inconsistent code in method: com.tencent.map.b.b.b.run():void
+[2016-09-17 19:58:44] [WARN] No exception handlers in catch block, method: com.tencent.map.b.d.a():void
+[2016-09-17 19:58:44] [ERROR] Inconsistent code in method: com.tencent.map.b.d.a(android.content.Context, com.tencent.map.b.d$c):boolean
+[2016-09-17 19:58:44] [ERROR] Inconsistent code in method: com.tencent.map.b.e.a(com.tencent.map.b.e$c, android.content.Context):boolean
+[2016-09-17 19:58:44] [ERROR] Inconsistent code in method: com.tencent.map.b.f.a(android.content.Context, com.tencent.map.a.a.b):boolean
+[2016-09-17 19:58:44] [ERROR] Inconsistent code in method: com.tencent.map.b.g.a():void
+[2016-09-17 19:58:44] [ERROR] Inconsistent code in method: com.tencent.map.b.g.a(android.content.Context, com.tencent.map.b.g$c, int):boolean
+[2016-09-17 19:58:44] [ERROR] Inconsistent code in method: com.tencent.map.b.q.a(boolean, java.lang.String, java.lang.String, java.lang.String, byte[], boolean, boolean):com.tencent.map.b.n
+[2016-09-17 19:58:46] [WARN] Unknown top splitter block from list: {B:7:0x0024=Splitter: B:7:0x0024, B:21:0x006c=Splitter: B:21:0x006c}
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.open.b.g.4.run():void
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.open.b.g.5.run():void
+[2016-09-17 19:58:46] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:58:46] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:58:46] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:58:46] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:58:46] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.open.utils.HttpUtils.request(com.tencent.connect.auth.QQToken, android.content.Context, java.lang.String, android.os.Bundle, java.lang.String):org.json.JSONObject
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.open.utils.HttpUtils.upload(com.tencent.connect.auth.QQToken, android.content.Context, java.lang.String, android.os.Bundle):org.json.JSONObject
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.open.utils.OpenConfig.a(java.lang.String):java.lang.String
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.open.yyb.a.b.a(android.os.Bundle[]):java.lang.Void
+[2016-09-17 19:58:46] [ERROR] Block not found by B:40:0x00b3, in BRI start: (B:19:?, B:34:?), end: null, list: [(B:19:?, B:34:?)], outs: [(B:20:0x0097, B:35:0x00b3)], regMap: {(r0 android.database.sqlite.SQLiteDatabase)=(r1 android.database.sqlite.SQLiteDatabase), (r0 com.tencent.stat.w)=(r1 com.tencent.stat.w)}, split: 0, method: com.tencent.stat.n.b(java.util.List):void
+[2016-09-17 19:58:46] [ERROR] Block not found by B:49:0x010d, in BRI start: (B:34:?, B:25:?), end: null, list: [(B:34:?, B:25:?)], outs: [(B:35:0x0132, B:26:0x010d)], regMap: {(r0 android.database.sqlite.SQLiteDatabase)=(r1 android.database.sqlite.SQLiteDatabase), (r0 com.tencent.stat.w)=(r1 com.tencent.stat.w)}, split: 0, method: com.tencent.stat.n.b(java.util.List, int):void
+[2016-09-17 19:58:46] [ERROR] Can't fix incorrect switch cases order, method: com.tencent.stat.d.a(java.util.List, com.tencent.stat.c):void
+[2016-09-17 19:58:46] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:58:46] [ERROR] Can't fix incorrect switch cases order, method: com.tencent.stat.common.i.a(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:46] [ERROR] Can't fix incorrect switch cases order, method: com.tencent.stat.common.j.a(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:46] [ERROR] JadxOverflowException in pass: RegionMakerVisitor in method: com.tencent.stat.common.j.a(byte[], int, int, boolean):boolean, message: Regions stack size limit reached
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.stat.common.i.a(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.stat.common.j.a(byte[], int, int, boolean):boolean
+[2016-09-17 19:58:46] [ERROR] Inconsistent code in method: com.tencent.stat.d.a(java.util.List, com.tencent.stat.c):void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.j.a(java.lang.String, int):com.tencent.stat.NetworkMonitor
+[2016-09-17 19:58:47] [WARN] No exception handlers in catch block, method: com.tencent.stat.k.run():void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.n.b(com.tencent.stat.a.e, com.tencent.stat.c):void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.n.b(com.tencent.stat.a.e, com.tencent.stat.c):void
+[2016-09-17 19:58:47] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.n.b(com.tencent.stat.b):void
+[2016-09-17 19:58:47] [ERROR] Inconsistent code in method: com.tencent.stat.n.b(java.util.List):void
+[2016-09-17 19:58:47] [ERROR] Inconsistent code in method: com.tencent.stat.n.b(java.util.List, int):void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.n.c(java.util.List, int):void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.n.c(java.util.List, int):void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.n.f():void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.n.b(android.content.Context):com.tencent.stat.DeviceInfo
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.n.b(android.content.Context):com.tencent.stat.DeviceInfo
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.t.run():void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.w.a(android.database.sqlite.SQLiteDatabase):void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.w.b(android.database.sqlite.SQLiteDatabase):void
+[2016-09-17 19:58:47] [WARN] Several 'all' handlers in try/catch block in com.tencent.stat.w.b(android.database.sqlite.SQLiteDatabase):void
+[2016-09-17 19:58:49] [WARN] Finally extract failed: remBlock pred: B:17:0x003a, [B:16:0x0024, B:11:0x0016], method: com.umpay.huafubao.a.a.b.a(byte[], int):int
+[2016-09-17 19:58:49] [ERROR] Failed to process nested try/catch in method: com.umpay.huafubao.a.uncaughtException(java.lang.Thread, java.lang.Throwable):void
+[2016-09-17 19:58:49] [ERROR] Inconsistent code in method: com.umpay.huafubao.a.uncaughtException(java.lang.Thread, java.lang.Throwable):void
+[2016-09-17 19:58:49] [ERROR] Method generation error in method: com.umpay.huafubao.service.SmsBillingUpdateService.a(java.io.File):java.lang.String
+[2016-09-17 19:58:49] [ERROR] Anonymous class already generated: com.umpay.huafubao.ui.BillingActivity.2 in method: com.umpay.huafubao.ui.BillingActivity.onCreate(android.os.Bundle):void
+[2016-09-17 19:58:49] [ERROR] Anonymous class already generated: com.umpay.huafubao.ui.BillingActivity.3 in method: com.umpay.huafubao.ui.BillingActivity.onCreate(android.os.Bundle):void
+[2016-09-17 19:58:49] [ERROR] Anonymous class already generated: com.umpay.huafubao.ui.BillingActivity.2 in method: com.umpay.huafubao.ui.BillingActivity.onCreate(android.os.Bundle):void
+[2016-09-17 19:58:49] [ERROR] Anonymous class already generated: com.umpay.huafubao.ui.BillingActivity.3 in method: com.umpay.huafubao.ui.BillingActivity.onCreate(android.os.Bundle):void
+[2016-09-17 19:58:49] [ERROR] Block not found by B:17:0x002b, in BRI start: (B:2:0x0014, B:11:0x0026), end: null, list: [(B:3:0x0016, B:12:0x0028), (B:2:0x0014, B:11:0x0026)], outs: [(B:14:0x0019, B:13:0x002b)], regMap: {}, split: 0, method: com.umpay.huafubao.util.PowerImageView.a(android.content.res.TypedArray):int
+[2016-09-17 19:58:49] [ERROR] JadxRuntimeException in pass: BlockFinish in method: com.umpay.huafubao.util.PowerImageView.a(android.content.res.TypedArray):int
+[2016-09-17 19:58:49] [ERROR] Inconsistent code in method: com.umpay.huafubao.volley.toolbox.a.a(com.umpay.huafubao.volley.p):com.umpay.huafubao.volley.m
+[2016-09-17 19:58:49] [ERROR] Block not found by B:27:0x0037, in BRI start: (B:14:?, B:22:?), end: null, list: [(B:14:?, B:22:?)], outs: [(B:15:0x0028, B:23:0x0037)], regMap: {}, split: 0, method: com.unicom.dcLoader.a.a(java.io.InputStream):java.lang.String
+[2016-09-17 19:58:49] [ERROR] Inconsistent code in method: com.unicom.dcLoader.a.a(java.io.InputStream):java.lang.String
+[2016-09-17 19:58:53] [ERROR] Inconsistent code in method: com.unionpay.mobile.android.nocard.views.l.A():void
+[2016-09-17 19:58:53] [ERROR] Block not found by B:32:0x009e, in BRI start: (B:13:?, B:25:?), end: null, list: [(B:13:?, B:25:?)], outs: [(B:14:0x007f, B:26:0x009e)], regMap: {(r1 java.lang.String)=(r2 java.lang.String), (r0 cn.gov.pbc.tsm.client.mobile.android.bank.service.a)=(r1 cn.gov.pbc.tsm.client.mobile.android.bank.service.a)}, split: 0, method: com.unionpay.mobile.android.pboctransaction.icfcc.a.a(com.unionpay.mobile.android.pboctransaction.d):java.util.ArrayList<com.unionpay.mobile.android.model.c>
+[2016-09-17 19:58:53] [ERROR] Inconsistent code in method: com.unionpay.mobile.android.pboctransaction.icfcc.a.a(com.unionpay.mobile.android.pboctransaction.d):java.util.ArrayList<com.unionpay.mobile.android.model.c>
+[2016-09-17 19:58:53] [ERROR] JadxRuntimeException in pass: EliminatePhiNodes in method: com.unionpay.mobile.android.widgets.bc.<init>(android.content.Context, int, org.json.JSONObject):void
+[2016-09-17 19:58:54] [WARN] No exception handlers in catch block, method: com.unipay.account.e.a(int):void
+[2016-09-17 19:58:54] [ERROR] Inconsistent code in method: com.unipay.account.loader.Loader.c():boolean
+[2016-09-17 19:58:54] [ERROR] Can't fix incorrect switch cases order, method: org.json.alipay.d.c():char
+[2016-09-17 19:58:54] [ERROR] Inconsistent code in method: org.json.alipay.d.c():char
+[2016-09-17 19:59:02] [WARN] No exception handlers in catch block, method: u.aly.t.a(byte[], java.lang.String):byte[]
+[2016-09-17 19:59:08] [WARN] Resource 'assets/images/welcom1.png' not saved, unknown type
+[2016-09-17 19:59:12] [WARN] Resource 'assets/images/welcome_shengdan.png' not saved, unknown type
+[2016-09-17 19:59:29] [WARN] Resource 'assets/images/welcome1.png' not saved, unknown type
+[2016-09-17 19:59:30] [WARN] Resource 'assets/images/welcome.png' not saved, unknown type
+[2016-09-17 19:59:58] [WARN] Found 4 references to unknown classes
+[2016-09-17 19:59:58] [ERROR] 141 errors occurred in following nodes:
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.app.FragmentManagerImpl.execPendingActions():boolean
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.content.LocalBroadcastManager.executePendingBroadcasts():void
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.content.LocalBroadcastManager.sendBroadcast(android.content.Intent):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.media.RatingCompat.getRating():java.lang.Object
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.provider.DocumentsContractApi19.exists(android.content.Context, android.net.Uri):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.util.LruCache.get(java.lang.Object):V
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.util.LruCache.trimToSize(int):void
+[2016-09-17 19:59:58] [ERROR]   Method: android.support.v4.widget.ViewDragHelper.processTouchEvent(android.view.MotionEvent):void
+[2016-09-17 19:59:58] [ERROR]   Method: cn.egame.terminal.paysdk.EgameLaunchActivity.getBitmap(java.lang.String):android.graphics.Bitmap
+[2016-09-17 19:59:58] [ERROR]   Method: cn.egame.terminal.paysdk.codec.Base64.Decoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: cn.egame.terminal.paysdk.codec.Base64.Encoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.android.phone.mrpc.core.x.d():com.alipay.android.phone.mrpc.core.ab
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.apmobilesecuritysdk.face.a.b.a():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.sdk.auth.i.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.sdk.sys.b.a(java.lang.String[]):java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.sdk.tid.a.a(java.lang.String, java.lang.String, java.lang.String, java.lang.String):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.sdk.tid.a.d(java.lang.String, java.lang.String):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.sdk.util.b.<init>(android.content.Context):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.sdk.util.h.a(java.lang.String, android.content.Intent):java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.sdk.widget.c.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.alipay.security.mobile.module.deviceinfo.b.m():java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.app.common.SDTools.isExist(android.content.Context, java.lang.String, java.lang.String):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.app.common.SDTools.saveBitmap(android.content.Context, java.lang.String, java.lang.String, android.graphics.Bitmap):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.app.image.CameraUploadImage.saveBitmap(android.graphics.Bitmap, android.os.Bundle):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.boyaaad.admanager.AdDataManagement.queryDownloadStatus():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.boyaaad.image.ImageLoadTask.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.boyaaad.widget.BoyaaGifImageView.getResourceId(android.content.res.TypedArray, android.content.Context, android.util.AttributeSet):int
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.ddzcamera.utils.BitmapUtils.Bitmap2ExternalStorage(android.content.Context, java.lang.String, java.lang.String, android.graphics.Bitmap):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.engineddz.LuaCallManager.11.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.engineddz.LuaCallManager.syncUnBase64UngzipCheckJsonFormatForLua():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.entity.battle.wifi.WifiBroadcastListeningThread.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.extension.Contacts.queryPhoneContacts():int
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.extension.Contacts.querySIMContacts():int
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.godsdk.core.utils.NetworkUtils.getImsi2(android.content.Context):java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.godsdk.core.utils.SimUtils.getImsi2(android.content.Context):java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.made.AppHttpGetUpdate.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.made.GLSurfaceView.GLThread.guardedRun():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPNG():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.boyaa.made.RefactorAppHttpGetUpdate.downloadPatch():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.a.a.b.a.a.e.b(java.nio.channels.SocketChannel):long
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.a.a.d.e.a(com.igexin.a.a.d.d, boolean, boolean):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.a.a.d.e.h():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.a.a.d.i.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.download.DownloadProvider.query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String):android.database.Cursor
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.download.f.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.download.g.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.download.h.a(android.content.Context, long):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.download.h.a(java.lang.String, int, java.lang.String, int):java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.getuiext.service.d.a(com.igexin.download.DownloadInfo):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.push.b.b.a(java.lang.String, java.lang.String[], java.lang.String[], java.lang.String[], java.lang.String):android.database.Cursor
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.push.core.a.c.a(java.lang.Object, org.json.JSONObject):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.igexin.push.e.b.a.a():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.skymobi.pay.e.a(java.lang.String):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.skymobi.pay.i.a(android.content.Context, java.lang.String, boolean):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.skymobi.pay.l.a(android.content.Context, java.lang.String, boolean, java.lang.String):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.ta.utdid2.android.utils.Base64.Decoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.ta.utdid2.android.utils.Base64.Encoder.process(byte[], int, int, boolean):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.map.b.a.a(java.lang.String, java.lang.String):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.map.b.b.b.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.map.b.d.a(android.content.Context, com.tencent.map.b.d$c):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.map.b.e.a(com.tencent.map.b.e$c, android.content.Context):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.map.b.f.a(android.content.Context, com.tencent.map.a.a.b):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.map.b.g.a():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.map.b.g.a(android.content.Context, com.tencent.map.b.g$c, int):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.map.b.q.a(boolean, java.lang.String, java.lang.String, java.lang.String, byte[], boolean, boolean):com.tencent.map.b.n
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.open.b.g.4.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.open.b.g.5.run():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.open.utils.HttpUtils.request(com.tencent.connect.auth.QQToken, android.content.Context, java.lang.String, android.os.Bundle, java.lang.String):org.json.JSONObject
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.open.utils.HttpUtils.upload(com.tencent.connect.auth.QQToken, android.content.Context, java.lang.String, android.os.Bundle):org.json.JSONObject
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.open.utils.OpenConfig.a(java.lang.String):java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.open.yyb.a.b.a(android.os.Bundle[]):java.lang.Void
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.stat.common.i.a(byte[], int, int, boolean):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.stat.common.j.a(byte[], int, int, boolean):boolean
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.stat.d.a(java.util.List, com.tencent.stat.c):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.stat.n.b(java.util.List):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.tencent.stat.n.b(java.util.List, int):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.umpay.huafubao.a.uncaughtException(java.lang.Thread, java.lang.Throwable):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.umpay.huafubao.service.SmsBillingUpdateService.a(java.io.File):java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.umpay.huafubao.ui.BillingActivity.onCreate(android.os.Bundle):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.umpay.huafubao.util.PowerImageView.a(android.content.res.TypedArray):int
+[2016-09-17 19:59:58] [ERROR]   Method: com.umpay.huafubao.volley.toolbox.a.a(com.umpay.huafubao.volley.p):com.umpay.huafubao.volley.m
+[2016-09-17 19:59:58] [ERROR]   Method: com.unicom.dcLoader.a.a(java.io.InputStream):java.lang.String
+[2016-09-17 19:59:58] [ERROR]   Method: com.unionpay.mobile.android.nocard.views.l.A():void
+[2016-09-17 19:59:58] [ERROR]   Method: com.unionpay.mobile.android.pboctransaction.icfcc.a.a(com.unionpay.mobile.android.pboctransaction.d):java.util.ArrayList<com.unionpay.mobile.android.model.c>
+[2016-09-17 19:59:58] [ERROR]   Method: com.unionpay.mobile.android.widgets.bc.<init>(android.content.Context, int, org.json.JSONObject):void
+[2016-09-17 19:59:58] [ERROR]   Method: com.unipay.account.loader.Loader.c():boolean
+[2016-09-17 19:59:58] [ERROR]   Method: org.json.alipay.d.c():char
+[2016-09-17 19:59:58] [ERROR] finished with errors-finsh decode:635687ede0d58e4e77643dd954bd4141.apk
+[2016-09-17 20:00:00,965] [INFO] codeSort.py:100 run -begin to find key codeblock in 635687ede0d58e4e77643dd954bd4141.apk source
+[2016-09-17 20:00:00,965] [INFO] codeSort.py:38 getRegularExpression
+[2016-09-17 20:00:00,999] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:01,001] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:10,539] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:10,539] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:10,540] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:10,803] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:11,179] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:11,187] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:11,834] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:11,962] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:15,944] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:16,068] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 20:00:16,090] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:16,090] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:16,090] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:21,015] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:21,018] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:21,018] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:26,074] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:26,625] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:26,626] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:33,493] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:33,493] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:33,494] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:38,457] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:38,458] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:38,458] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:38,582] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:38,622] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:38,674] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:38,695] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:38,878] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:38,922] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:38,975] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,085] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,097] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,321] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,442] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,470] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,529] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,657] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,687] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,697] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,809] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,881] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,924] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,949] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:39,974] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:40,018] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:40,022] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:40,074] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:40,079] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:40,128] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:43,307] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:43,325] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:43,330] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:43,386] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:43,462] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:43,467] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:43,501] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 20:00:43,501] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:43,501] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:43,501] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:48,602] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:48,602] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:48,602] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:48,769] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:48,918] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:48,986] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:49,016] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:49,103] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:49,154] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:49,288] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:49,312] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:49,382] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:49,697] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,050] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,082] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,108] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,152] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,265] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,336] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,351] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,370] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,445] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,506] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,511] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:50,516] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:54,033] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:57,427] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:57,460] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:57,493] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:57,521] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:57,545] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:57,637] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:57,646] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:57,684] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 20:00:57,684] [INFO] codeSort.py:29 clear
+[2016-09-17 20:00:57,684] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:00:57,685] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:00:57,984] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:58,243] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:00:58,720] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:01:03,172] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 20:01:03,173] [INFO] codeSort.py:29 clear
+[2016-09-17 20:01:03,173] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:01:03,173] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:01:04,227] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:01:08,155] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 20:01:08,155] [INFO] codeSort.py:29 clear
+[2016-09-17 20:01:08,155] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:01:08,155] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:01:22,338] [INFO] codeSort.py:29 clear
+[2016-09-17 20:01:22,338] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:01:22,338] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:01:23,182] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:01:27,499] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 20:01:27,588] [INFO] codeSort.py:29 clear
+[2016-09-17 20:01:27,588] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:01:27,589] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:01:32,075] [INFO] codeSort.py:29 clear
+[2016-09-17 20:01:32,076] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:01:32,076] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:01:32,262] [INFO] codeSort.py:29 clear
+[2016-09-17 20:01:32,262] [INFO] codeSort.py:118 finish find key codeblock in 635687ede0d58e4e77643dd954bd4141.apk source
+[2016-09-17 20:01:32,422] [INFO] actionPraser.py:68 run -begin to find permission and action in 635687ede0d58e4e77643dd954bd4141.apk xml
+[2016-09-17 20:01:32,422] [INFO] actionPraser.py:53 getPermission
+[2016-09-17 20:01:32,422] [INFO] actionPraser.py:33 parseTag
+[2016-09-17 20:01:32,423] [INFO] actionPraser.py:49 getAction
+[2016-09-17 20:01:32,423] [INFO] actionPraser.py:33 parseTag
+[2016-09-17 20:01:32,437] [INFO] actionPraser.py:86 finish find permission and action in 635687ede0d58e4e77643dd954bd4141.apk xml
+[2016-09-17 20:01:35] [INFO] loading ...-begin to decode:65b52824d7151bcbb33007da9b2e1830.apk
+[2016-09-17 20:01:45] [INFO] processing ...
+[2016-09-17 20:01:47] [ERROR] Failed to process nested try/catch in method: android.support.multidex.MultiDexExtractor.verifyZipFile(java.io.File):boolean
+[2016-09-17 20:01:47] [ERROR] Inconsistent code in method: android.support.multidex.MultiDex.install(android.content.Context):void
+[2016-09-17 20:01:47] [WARN] Several 'all' handlers in try/catch block in android.support.multidex.MultiDexExtractor.extract(java.util.zip.ZipFile, java.util.zip.ZipEntry, java.io.File, java.lang.String):void
+[2016-09-17 20:01:47] [ERROR] Inconsistent code in method: android.support.multidex.MultiDexExtractor.verifyZipFile(java.io.File):boolean
+[2016-09-17 20:01:50] [WARN] Can't detect out node for switch block: B:8:0x0015 in android.support.v4.media.RatingCompat.getRating():java.lang.Object
+[2016-09-17 20:01:50] [ERROR] Inconsistent code in method: android.support.v4.media.RatingCompat.getRating():java.lang.Object
+[2016-09-17 20:01:50] [WARN] Generic type differs: 'java.lang.Object' and 'android.media.session.PlaybackState$CustomAction' in android.support.v4.media.session.PlaybackStateCompatApi21.newInstance(int, long, long, float, long, java.lang.CharSequence, long, java.util.List, long):java.lang.Object
+[2016-09-17 20:01:50] [WARN] Generic type differs: 'java.lang.Object' and 'android.media.session.PlaybackState$CustomAction' in android.support.v4.media.session.PlaybackStateCompatApi22.newInstance(int, long, long, float, long, java.lang.CharSequence, long, java.util.List, long, android.os.Bundle):java.lang.Object
+[2016-09-17 20:01:56] [ERROR] Inconsistent code in method: android.support.v4.view.ViewPager.populate(int):void
+[2016-09-17 20:01:56] [ERROR] Can't fix incorrect switch cases order, method: android.support.v4.widget.SlidingPaneLayout.onInterceptTouchEvent(android.view.MotionEvent):boolean
+[2016-09-17 20:01:57] [ERROR] Inconsistent code in method: android.support.v4.widget.SlidingPaneLayout.onInterceptTouchEvent(android.view.MotionEvent):boolean
+[2016-09-17 20:01:58] [ERROR] Can't fix incorrect switch cases order, method: android.support.v7.widget.RecyclerView.LayoutManager.performAccessibilityAction(android.support.v7.widget.RecyclerView$Recycler, android.support.v7.widget.RecyclerView$State, int, android.os.Bundle):boolean
+[2016-09-17 20:01:58] [WARN] No exception handlers in catch block, method: android.support.v7.widget.RecyclerView.createLayoutManager(android.content.Context, java.lang.String, android.util.AttributeSet, int, int):void
+[2016-09-17 20:01:58] [ERROR] Inconsistent code in method: android.support.v7.widget.RecyclerView.LayoutManager.performAccessibilityAction(android.support.v7.widget.RecyclerView$Recycler, android.support.v7.widget.RecyclerView$State, int, android.os.Bundle):boolean
+[2016-09-17 20:01:58] [ERROR] Inconsistent code in method: android.support.v7.widget.RecyclerView.pullGlows(float, float, float, float):void
+[2016-09-17 20:01:59] [WARN] Unsupported boolean condition >= in method: android.support.v7.widget.StaggeredGridLayoutManager.hasGapsToFix():android.view.View
+[2016-09-17 20:02:07] [WARN] Unknown top splitter block from list: {B:37:0x0057=Splitter: B:37:0x0057, B:25:0x0042=Splitter: B:25:0x0042, B:49:0x006c=Splitter: B:49:0x006c}
+[2016-09-17 20:02:09] [WARN] Several 'all' handlers in try/catch block in com.alibaba.tcms.service.TCMPush.java_init():void
+[2016-09-17 20:02:09] [WARN] Several 'all' handlers in try/catch block in com.alibaba.tcms.service.TCMPush.java_getClientIdV1(java.lang.String, java.lang.String, java.util.Map, java.lang.StringBuffer):int
+[2016-09-17 20:02:09] [WARN] Several 'all' handlers in try/catch block in com.alibaba.wxlib.util.SysUtil.getProcessNameFromProc():java.lang.String
+[2016-09-17 20:02:10] [WARN] Unknown top splitter block from list: {B:104:0x02bf=Splitter: B:104:0x02bf, B:142:0x039b=Splitter: B:142:0x039b, B:160:0x03cc=Splitter: B:160:0x03cc, B:122:0x035e=Splitter: B:122:0x035e}
+[2016-09-17 20:02:10] [WARN] No exception handlers in catch block, method: com.loc.d.g():void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.a(java.net.Socket):void
+[2016-09-17 20:02:10] [WARN] Several 'all' handlers in try/catch block in com.loc.d.g():void
+[2016-09-17 20:02:11] [ERROR] Inconsistent code in method: com.squareup.okhttp.ConnectionPool.performCleanup():boolean
+[2016-09-17 20:02:12] [WARN] Several 'all' handlers in try/catch block in com.tencent.android.tpush.a.a.c(int, java.util.List):void
+[2016-09-17 20:02:12] [ERROR] Inconsistent code in method: com.tencent.android.tpush.service.m.a(android.content.Intent):void
+[2016-09-17 20:02:12] [WARN] No exception handlers in catch block, method: com.tendcloud.tenddata.as.run():void
+[2016-09-17 20:02:12] [ERROR] Failed to process nested try/catch in method: com.tendcloud.tenddata.as.run():void
+[2016-09-17 20:02:12] [ERROR] Failed to process nested try/catch in method: com.tendcloud.tenddata.as.run():void
+[2016-09-17 20:02:12] [ERROR] Failed to process nested try/catch in method: com.tendcloud.tenddata.as.run():void
+[2016-09-17 20:02:12] [ERROR] Failed to process nested try/catch in method: com.tendcloud.tenddata.as.run():void
+[2016-09-17 20:02:12] [ERROR] Inconsistent code in method: com.tendcloud.tenddata.as.run():void
+[2016-09-17 20:02:13] [ERROR] Block not found by B:26:0x002c, in BRI start: (B:7:?, B:15:?), end: null, list: [(B:7:?, B:15:?)], outs: [(B:8:0x0020, B:16:0x002c)], regMap: {}, split: 0, method: com.tongcheng.android.homepage.utils.HomeCache.a(java.lang.String, android.graphics.Bitmap):boolean
+[2016-09-17 20:02:20] [ERROR] Inconsistent code in method: com.tongcheng.android.common.city.basecity.databasecitylist.TravelConsultantCityListActivity.onLetterItemChosen(java.lang.String):void
+[2016-09-17 20:02:20] [WARN] Finally extract failed: remBlock pred: B:10:0x0031, [B:9:0x002e, B:21:0x0097], method: com.tongcheng.android.common.city.basecity.datasourcecitylist.CitySelectWebappActivity.initDataFromBundle():void
+[2016-09-17 20:02:20] [ERROR] Inconsistent code in method: com.tongcheng.android.common.city.basecity.datasourcecitylist.CitySelectWebappActivity.initDataFromBundle():void
+[2016-09-17 20:02:27] [WARN] Unsupported boolean condition > in method: com.tongcheng.android.cruise.CruiseNewWriteOrderActivity.checkSubmitTotalNum():boolean
+[2016-09-17 20:02:31] [ERROR] Can't fix incorrect switch cases order, method: com.tongcheng.android.diary.view.TwoWayGridView.HorizontalGridBuilder.a():void
+[2016-09-17 20:02:31] [ERROR] Can't fix incorrect switch cases order, method: com.tongcheng.android.diary.view.TwoWayGridView.HorizontalGridBuilder.b(int):boolean
+[2016-09-17 20:02:31] [ERROR] Can't fix incorrect switch cases order, method: com.tongcheng.android.diary.view.TwoWayGridView.VerticalGridBuilder.a():void
+[2016-09-17 20:02:31] [ERROR] Can't fix incorrect switch cases order, method: com.tongcheng.android.diary.view.TwoWayGridView.VerticalGridBuilder.b(int):boolean
+[2016-09-17 20:02:35] [ERROR] Inconsistent code in method: com.tongcheng.android.diary.view.TwoWayGridView.HorizontalGridBuilder.a():void
+[2016-09-17 20:02:35] [ERROR] Inconsistent code in method: com.tongcheng.android.diary.view.TwoWayGridView.HorizontalGridBuilder.b():void
+[2016-09-17 20:02:35] [ERROR] Inconsistent code in method: com.tongcheng.android.diary.view.TwoWayGridView.HorizontalGridBuilder.b(int):boolean
+[2016-09-17 20:02:35] [ERROR] Inconsistent code in method: com.tongcheng.android.diary.view.TwoWayGridView.VerticalGridBuilder.a():void
+[2016-09-17 20:02:35] [ERROR] Inconsistent code in method: com.tongcheng.android.diary.view.TwoWayGridView.VerticalGridBuilder.b():void
+[2016-09-17 20:02:35] [ERROR] Inconsistent code in method: com.tongcheng.android.diary.view.TwoWayGridView.VerticalGridBuilder.b(int):boolean
+[2016-09-17 20:02:38] [ERROR] Can't fix incorrect switch cases order, method: com.tongcheng.android.disport.widget.OverseasCalendarPickerView.doSelectDate(java.util.Date, com.tongcheng.lib.serv.module.scrollcalendar.view.MonthCellDescriptor):boolean
+[2016-09-17 20:02:38] [ERROR] Failed to process nested try/catch in method: com.tongcheng.android.disport.activity.DisportOrderDetailActivity.3.1.onClick(android.view.View):void
+[2016-09-17 20:02:38] [ERROR] Inconsistent code in method: com.tongcheng.android.disport.activity.DisportOrderDetailActivity.3.1.onClick(android.view.View):void
+[2016-09-17 20:02:42] [ERROR] JadxRuntimeException in pass: SSATransform in method: com.tongcheng.android.disport.entity.resbody.NewGetOverseasDetailResBody.PriceInfoEntity.PriceDetailEntity.PriceExtendDetailEntity.PlayLabelEntity.<init>():void
+[2016-09-17 20:02:42] [ERROR] JadxRuntimeException in pass: SSATransform in method: com.tongcheng.android.disport.entity.resbody.NewGetOverseasDetailResBody.PriceInfoEntity.PriceDetailEntity.PriceExtendDetailEntity.PlayLabelEntity.toString():java.lang.String
+[2016-09-17 20:02:42] [ERROR] JadxRuntimeException in pass: SSATransform in method: com.tongcheng.android.disport.entity.resbody.NewGetOverseasDetailResBody.PriceInfoEntity.PriceDetailEntity.PriceExtendDetailEntity.<init>():void
+[2016-09-17 20:02:42] [ERROR] JadxRuntimeException in pass: SSATransform in method: com.tongcheng.android.disport.entity.resbody.NewGetOverseasDetailResBody.PriceInfoEntity.PriceDetailEntity.<init>():void
+[2016-09-17 20:02:42] [ERROR] JadxRuntimeException in pass: SSATransform in method: com.tongcheng.android.disport.entity.resbody.NewGetOverseasDetailResBody.PriceInfoEntity.<init>():void
+[2016-09-17 20:02:44] [ERROR] Inconsistent code in method: com.tongcheng.android.disport.widget.OverseasCalendarPickerView.doSelectDate(java.util.Date, com.tongcheng.lib.serv.module.scrollcalendar.view.MonthCellDescriptor):boolean
+[2016-09-17 20:03:01] [ERROR] Failed to process nested try/catch in method: com.tongcheng.android.guide.model.view.ModelViewWorldDeservedDest.DestAdapter.adjustItemDimens(android.view.ViewGroup, android.view.View):void
+[2016-09-17 20:03:02] [ERROR] Inconsistent code in method: com.tongcheng.android.guide.model.view.ModelViewWorldDeservedDest.DestAdapter.adjustItemDimens(android.view.ViewGroup, android.view.View):void
+[2016-09-17 20:03:03] [WARN] Finally extract failed: remBlock pred: B:14:0x0036, [B:13:0x002e, B:9:0x0024, B:12:0x002c], method: com.tongcheng.android.guide.travelnotes.photopicker.PhotoCompressAndStore.BitmapAssist.a(com.tongcheng.android.guide.travelnotes.imagefilter.Image):android.graphics.Bitmap
+[2016-09-17 20:03:03] [ERROR] JadxRuntimeException in pass: BlockFinish in method: com.tongcheng.android.guide.travelnotes.photopicker.PhotoCompressAndStore.BitmapAssist.a(com.tongcheng.android.guide.travelnotes.imagefilter.Image):android.graphics.Bitmap
+[2016-09-17 20:03:05] [ERROR] Inconsistent code in method: com.tongcheng.android.homepage.entity.obj.HomePageCity.equals(java.lang.Object):boolean
+[2016-09-17 20:03:07] [ERROR] Inconsistent code in method: com.tongcheng.android.homepage.utils.HomeCache.a(java.lang.String, android.graphics.Bitmap):boolean
+[2016-09-17 20:03:53] [ERROR] Anonymous class already generated: com.tongcheng.android.homepage.view.components.HomeImageSwitcher.1 in method: com.tongcheng.android.homepage.view.components.HomeImageSwitcher.<init>(android.content.Context):void
+[2016-09-17 20:04:18] [WARN] Finally extract failed: remBlock pred: B:13:0x0040, [B:9:0x0038, B:12:0x003e, B:16:0x004e], method: com.tongcheng.android.hotel.HotelImageShowActivity.getFilePathByContentResolver(android.content.Context, android.net.Uri):java.lang.String
+[2016-09-17 20:05:09] [ERROR] Can't fix incorrect switch cases order, method: com.tongcheng.android.hotel.scrollcalendar.CalendarPickerView.doSelectDate(java.util.Date, com.tongcheng.android.hotel.scrollcalendar.MonthCellDescriptor):boolean
+[2016-09-17 20:05:10] [ERROR] Inconsistent code in method: com.tongcheng.android.hotel.scrollcalendar.CalendarPickerView.doSelectDate(java.util.Date, com.tongcheng.android.hotel.scrollcalendar.MonthCellDescriptor):boolean
+[2016-09-17 20:05:24] [ERROR] Can't fix incorrect switch cases order, method: com.tongcheng.android.inlandtravel.business.calendar.flight.view.CalendarPickerView.doSelectDate(java.util.Date, com.tongcheng.android.inlandtravel.business.calendar.flight.view.MonthCellDescriptor):boolean
+[2016-09-17 20:05:24] [ERROR] Inconsistent code in method: com.tongcheng.android.inlandtravel.business.calendar.flight.view.CalendarPickerView.doSelectDate(java.util.Date, com.tongcheng.android.inlandtravel.business.calendar.flight.view.MonthCellDescriptor):boolean
+[2016-09-17 20:05:24] [ERROR] Can't fix incorrect switch cases order, method: com.tongcheng.android.inlandtravel.business.calendar.normal.ui.CalendarPickerView.doSelectDate(java.util.Date, com.tongcheng.android.inlandtravel.business.calendar.normal.ui.MonthCellDescriptor):boolean
+[2016-09-17 20:05:24] [ERROR] Inconsistent code in method: com.tongcheng.android.inlandtravel.business.calendar.normal.ui.CalendarPickerView.doSelectDate(java.util.Date, com.tongcheng.android.inlandtravel.business.calendar.normal.ui.MonthCellDescriptor):boolean
+[2016-09-17 20:05:56] [ERROR] Inconsistent code in method: com.tongcheng.android.inlandtravel.entity.obj.LinkerObj.equals(java.lang.Object):boolean
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 86400000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 86400000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 3600000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 86400000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 3600000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 60000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 86400000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 3600000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 60000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 1000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 86400000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 3600000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 60000 for type: java.lang.Object
+[2016-09-17 20:05:56] [WARN] Wrong object literal: 1000 for type: java.lang.Object
+[2016-09-17 20:05:57] [ERROR] Inconsistent code in method: com.tongcheng.android.inlandtravel.widget.InlandTravelViewPager.populate(int):void
+[2016-09-17 20:06:38] [ERROR] Inconsistent code in method: com.tongcheng.lib.biz.openssl.ReLinker.b(android.content.Context, java.lang.String, java.lang.String):void
+[2016-09-17 20:06:49] [ERROR] Inconsistent code in method: org.altbeacon.beacon.Region.a(org.altbeacon.beacon.Beacon):boolean
+[2016-09-17 20:06:50] [WARN] Unknown top splitter block from list: {B:23:0x005c=Splitter: B:23:0x005c, B:38:0x0095=Splitter: B:38:0x0095}
+[2016-09-17 20:06:50] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 20:06:53] [WARN] Can't detect out node for switch block: B:27:0x0042 in android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 20:06:53] [WARN] Can't detect out node for switch block: B:115:0x028b in android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 20:06:54] [ERROR] Anonymous class already generated: android.support.v4.app.BackStackRecord.1 in method: android.support.v4.app.BackStackRecord.configureTransitions(int, android.support.v4.app.BackStackRecord$TransitionState, boolean, android.util.SparseArray, android.util.SparseArray):boolean
+[2016-09-17 20:06:55] [ERROR] Inconsistent code in method: android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean):void
+[2016-09-17 20:06:55] [ERROR] Inconsistent code in method: android.support.v4.app.FragmentManagerImpl.execPendingActions():boolean
+[2016-09-17 20:06:58] [ERROR] Inconsistent code in method: android.support.v4.content.LocalBroadcastManager.sendBroadcast(android.content.Intent):boolean
+[2016-09-17 20:06:58] [ERROR] Inconsistent code in method: android.support.v4.content.LocalBroadcastManager.executePendingBroadcasts():void
+[2016-09-17 20:06:59] [WARN] Finally extract failed: remBlock pred: B:5:0x0027, [B:4:0x001f, B:7:0x002e], method: android.support.v4.media.session.IMediaSession.Stub.Proxy.getExtras():android.os.Bundle
+[2016-09-17 20:06:59] [WARN] Finally extract failed: remBlock pred: B:5:0x0027, [B:4:0x001f, B:7:0x002e], method: android.support.v4.media.session.IMediaSession.Stub.Proxy.getLaunchPendingIntent():android.app.PendingIntent
+[2016-09-17 20:06:59] [WARN] Finally extract failed: remBlock pred: B:5:0x0027, [B:4:0x001f, B:7:0x002e], method: android.support.v4.media.session.IMediaSession.Stub.Proxy.getMetadata():android.support.v4.media.MediaMetadataCompat
+[2016-09-17 20:06:59] [WARN] Finally extract failed: remBlock pred: B:5:0x0027, [B:4:0x001f, B:7:0x002e], method: android.support.v4.media.session.IMediaSession.Stub.Proxy.getPlaybackState():android.support.v4.media.session.PlaybackStateCompat
+[2016-09-17 20:06:59] [WARN] Finally extract failed: remBlock pred: B:5:0x0027, [B:4:0x001f, B:7:0x002e], method: android.support.v4.media.session.IMediaSession.Stub.Proxy.getQueueTitle():java.lang.CharSequence
+[2016-09-17 20:06:59] [WARN] Finally extract failed: remBlock pred: B:5:0x0027, [B:4:0x001f, B:7:0x002e], method: android.support.v4.media.session.IMediaSession.Stub.Proxy.getVolumeAttributes():android.support.v4.media.session.ParcelableVolumeInfo
+[2016-09-17 20:06:59] [WARN] Finally extract failed: remBlock pred: B:6:0x0020, [B:5:0x001f, B:4:0x001d], method: android.support.v4.media.session.IMediaSession.Stub.Proxy.isTransportControlEnabled():boolean
+[2016-09-17 20:06:59] [WARN] Finally extract failed: remBlock pred: B:8:0x002a, [B:7:0x0028, B:17:0x003e], method: android.support.v4.media.session.IMediaSession.Stub.Proxy.sendMediaButton(android.view.KeyEvent):boolean
+[2016-09-17 20:07:00] [ERROR] Inconsistent code in method: android.support.v4.os.CancellationSignal.cancel():void
+[2016-09-17 20:07:00] [ERROR] Inconsistent code in method: android.support.v4.os.CancellationSignal.setOnCancelListener(android.support.v4.os.CancellationSignal$OnCancelListener):void
+[2016-09-17 20:07:09] [ERROR] Inconsistent code in method: android.support.v4.util.LruCache.get(java.lang.Object):V
+[2016-09-17 20:07:09] [ERROR] Inconsistent code in method: android.support.v4.util.LruCache.trimToSize(int):void
+[2016-09-17 20:07:12] [ERROR] Can't fix incorrect switch cases order, method: android.support.v4.widget.DrawerLayout.onInterceptTouchEvent(android.view.MotionEvent):boolean
+[2016-09-17 20:07:12] [ERROR] Inconsistent code in method: android.support.v4.widget.DrawerLayout.onMeasure(int, int):void
+[2016-09-17 20:07:12] [ERROR] Inconsistent code in method: android.support.v4.widget.DrawerLayout.onInterceptTouchEvent(android.view.MotionEvent):boolean
+[2016-09-17 20:07:13] [ERROR] Inconsistent code in method: android.support.v4.widget.ViewDragHelper.shouldInterceptTouchEvent(android.view.MotionEvent):boolean
+[2016-09-17 20:07:13] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 20:07:14] [WARN] Wrong object literal: 1 for type: java.lang.Object
+[2016-09-17 20:07:14] [WARN] Wrong object literal: -1 for type: java.lang.Object
+[2016-09-17 20:07:15] [ERROR] Inconsistent code in method: android.support.v7.widget.helper.ItemTouchHelper.scrollIfNecessary():boolean
+[2016-09-17 20:07:15] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.framework.PlatformDb.getExpiresIn():long
+[2016-09-17 20:07:16] [WARN] No exception handlers in catch block, method: cn.sharesdk.framework.p.c():cn.sharesdk.framework.Platform[]
+[2016-09-17 20:07:17] [WARN] No exception handlers in catch block, method: cn.sharesdk.framework.utils.R.parseTwitterDate(java.lang.String):long
+[2016-09-17 20:07:17] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.framework.authorize.g.onCreate():void
+[2016-09-17 20:07:17] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.framework.n.a(android.content.pm.PackageInfo, android.content.Context):java.util.ArrayList<cn.sharesdk.framework.Platform>
+[2016-09-17 20:07:18] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.framework.p.j():void
+[2016-09-17 20:07:18] [ERROR] Inconsistent code in method: cn.sharesdk.framework.p.c():cn.sharesdk.framework.Platform[]
+[2016-09-17 20:07:18] [WARN] Finally extract failed: remBlock pred: B:6:0x002c, [B:5:0x002b, B:3:0x0025], method: cn.sharesdk.framework.statistics.a.b.a(java.lang.String):int
+[2016-09-17 20:07:18] [ERROR] Inconsistent code in method: cn.sharesdk.framework.statistics.a.b.a(java.lang.String):int
+[2016-09-17 20:07:22] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.framework.utils.R.getResId(java.lang.Class, java.lang.String):int
+[2016-09-17 20:07:22] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.framework.utils.R.parseTwitterDate(java.lang.String):long
+[2016-09-17 20:07:24] [ERROR] Inconsistent code in method: cn.sharesdk.framework.utils.l.append(java.lang.CharSequence, int, int):java.lang.Appendable
+[2016-09-17 20:07:24] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.sina.weibo.b.onPageStarted(android.webkit.WebView, java.lang.String, android.graphics.Bitmap):void
+[2016-09-17 20:07:24] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.sina.weibo.b.shouldOverrideUrlLoading(android.webkit.WebView, java.lang.String):boolean
+[2016-09-17 20:07:24] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.system.text.a.a(java.lang.String, java.lang.String, java.lang.String, java.lang.String, cn.sharesdk.system.text.ActionListener):void
+[2016-09-17 20:07:25] [WARN] Several 'all' handlers in try/catch block in cn.sharesdk.tencent.qq.g.a():void
+[2016-09-17 20:07:26] [WARN] Unknown top splitter block from list: {B:64:0x01bb=Splitter: B:64:0x01bb, B:37:0x0182=Splitter: B:37:0x0182}
+[2016-09-17 OpenJDK ] [INFO] rver VM warning: INFO: os::commit_memory(0x00000007c4177000, 611078144, 0) failed; error='无法分配内存' (errno=12)-finsh decode:65b52824d7151bcbb33007da9b2e1830.apk
+[2016-09-17 20:49:38,994] [INFO] codeSort.py:100 run -begin to find key codeblock in 65b52824d7151bcbb33007da9b2e1830.apk source
+[2016-09-17 20:49:38,994] [INFO] codeSort.py:38 getRegularExpression
+[2016-09-17 20:49:39,032] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:39,032] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:42,422] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:42,422] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:42,422] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:43,283] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:43,283] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:43,283] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:44,179] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:44,179] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:44,179] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:45,066] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:45,067] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:45,067] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:45,960] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:45,960] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:45,960] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:46,815] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:46,815] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:46,815] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:47,004] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:47,047] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:47,450] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:47,458] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:47,489] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:47,498] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:47,697] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 20:49:47,737] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:47,737] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:47,737] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:48,596] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:48,596] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:48,596] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:48,824] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:48,829] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:48,846] [INFO] codeSort.py:71 FindTarStringLocationInFile
+[2016-09-17 20:49:49,466] [INFO] codeSort.py:51 OutPutReport
+[2016-09-17 20:49:49,467] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:49,467] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:49,467] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:50,346] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:50,346] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:50,347] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:51,196] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:51,199] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:51,199] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:52,095] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:52,095] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:52,095] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:49:52,979] [INFO] codeSort.py:29 clear
+[2016-09-17 20:49:52,980] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:49:52,980] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:50:03,898] [INFO] codeSort.py:29 clear
+[2016-09-17 20:50:03,899] [INFO] codeSort.py:88 FindTarString
+[2016-09-17 20:50:03,899] [INFO] codeSort.py:58 GetFilePathList
+[2016-09-17 20:50:04,025] [INFO] codeSort.py:29 clear
+[2016-09-17 20:50:04,025] [INFO] codeSort.py:118 finish find key codeblock in 65b52824d7151bcbb33007da9b2e1830.apk source
