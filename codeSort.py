@@ -3,7 +3,7 @@
 # @Author: anchen
 # @Date:   2016-08-23 17:24:54
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-17 23:15:40
+# @Last Modified time: 2016-09-18 00:23:36
 import os
 import re
 import sys
@@ -84,7 +84,7 @@ class Analyze(object):
             print ContextToSave
         f.close()
 
-    def FindTarString(self,expr_list):
+    def FindTarString(self,TarString):
         self.log.info('FindTarString')
         list=self.GetFilePathList(self.FilePath)
         for l in list:
@@ -92,32 +92,22 @@ class Analyze(object):
                 f=open(l,'r')
                 Context=f.read()
                 f.close()
-                for expr in expr_list:
-                    self.key = expr[0]
-                    ret = self.GetCodeBlockFromJavaSouce(Context,expr[1])
-                    if ret:
-                        self.FindTarStringLocationInFile(l,expr[1])
-                        if self.code_content is not '':
-                            self.OutPutReport()
-                        self.clear()
-                # ret=self.GetCodeBlockFromJavaSouce(Context,TarString)
-                # if ret:
-                #     self.FindTarStringLocationInFile(l,TarString)
+                ret=self.GetCodeBlockFromJavaSouce(Context,TarString)
+                if ret:
+                    self.FindTarStringLocationInFile(l,TarString)
 
     def run(self):
         self.log.info('run -begin to find key codeblock in '+ self.apk_md5 + '.apk' + ' source')
         expr_list = self.getRegularExpression()
-        # for l in expr_list:
-        #     self.key = l[0]
-        #     if self.print_flag:
-        #         print l[0]
-        #     self.FindTarString(l[1])
-        #     if self.code_content is not '':
-        #         self.OutPutReport()
-        #     self.clear()
-        self.FindTarString(expr_list)
-
-
+        for l in expr_list:
+            self.key = l[0]
+            if self.print_flag:
+                print l[0]
+            self.FindTarString(l[1])
+            if self.code_content is not '':
+                self.OutPutReport()
+            self.clear()
+        
 tarpath = sys.argv[1]
 apk_md5 = sys.argv[2]
 outPutfileName = sys.argv[3]
