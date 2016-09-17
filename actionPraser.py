@@ -3,7 +3,7 @@
 # @Author: anchen
 # @Date:   2016-09-06 14:38:46
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-09 11:57:09
+# @Last Modified time: 2016-09-17 22:33:31
 import xml.etree.ElementTree as ET
 import Mylog
 import sys
@@ -53,6 +53,16 @@ class ParsingXML(object):
         self.log.info('getPermission')
         return self.parseTag('uses-permission')
 
+    def permissionFliter(self,str):
+        str = str.split('.')
+        for index,item in enumerate(str):
+            if item == 'permission':
+                ret = str[index+1:]
+                ic = ''
+                for i in ret:
+                    ic += i + '.'
+                return ic[:-1]
+
     def printResult(self):
         self.log.info('printResult')
         out = ''
@@ -70,7 +80,9 @@ class ParsingXML(object):
         f = open(self.output_file, 'a+')
         list1 = self.getPermission()
         for l1 in list1:
-            out += self.apk_md5 + '|' + '1' + '|' + l1[19:] + '\n'
+            handledPermissionStr = self.permissionFliter(l1)
+            out += self.apk_md5 + '|' + '1' + '|' + handledPermissionStr + '\n'
+            # out += self.apk_md5 + '|' + '1' + '|' + l1[19:] + '\n'
         list2 = self.getAction()
         for l2 in list2:
             out += self.apk_md5 + '|' + '2' + '|' + l2 + '\n'
