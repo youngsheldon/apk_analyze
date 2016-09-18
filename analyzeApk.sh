@@ -2,7 +2,7 @@
 # @Author: anchen
 # @Date:   2016-08-23 15:33:15
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-15 13:19:11
+# @Last Modified time: 2016-09-18 17:47:27
 out_log='log/virus_analyze.log'
 key_code_block='result/key_codeblock.txt'
 action_permission_report='result/act_permis.txt'
@@ -10,7 +10,7 @@ temp_log='temp.txt'
 
 DecompilingApk()
 {
-    jadx -d $2 $1 > $temp_log
+    JAVA_OPTS="-Xmx4G" jadx -j 1 -d $2 $1 > $temp_log
 }
 
 getFileNameFromPath()
