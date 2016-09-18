@@ -3,9 +3,10 @@
 # @Author: anchen
 # @Date:   2016-09-06 14:38:46
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-17 22:33:31
+# @Last Modified time: 2016-09-18 21:05:03
 import xml.etree.ElementTree as ET
 import Mylog
+import re 
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -17,42 +18,29 @@ class ParsingXML(object):
         self.apk_md5 = apk_md5
         self.output_file = output_file
         self.log_file = log_file
-        self.tree = ET.parse(self.file_path)
-        self.root = self.tree.getroot()
         self.log = Mylog.Mylog(self.log_file).getObject()
 
-
-    def tellPythonVersion(self):
-        v = sys.version
-        version = v[0:6]
-        num = 10*int(version[0]) + int(version[2])
-        return num  
-
-#2.7以上使用getiterator    #2.6以下使用iter
-    def parseTag(self,tag):
-        self.log.info('parseTag')
-        action_list = []
-        version = self.tellPythonVersion()
-        if version > 26:
-            tag_list = self.root.iter(tag)
-        else:
-            tag_list = self.root.getiterator(tag)
-
-        for v in tag_list:
-            f = v.attrib.values()
-            f=f[0]
-            if f not in action_list and 'action.MAIN' not in f:
-                action_list.append(f)
-        return action_list
+    def GetItemListFromXml(self,XmlFile,xx):
+        item_list = []
+        f=open(XmlFile,'r')
+        temp=f.read()
+        f.close()
+        pattern = re.compile(xx)  
+        results = pattern.findall(temp)  
+        for ret in results:
+            tar = ret.split('\"')
+            if tar[1] not in item_list:
+                item_list.append(tar[1]) 
+        return item_list 
 
     def getAction(self):
-        self.log.info('getAction')
-        return self.parseTag('action')
+        xxx=r'\<action android:name=.*\/\>'
+        return self.GetItemListFromXml(self.file_path,xxx)
 
     def getPermission(self):
-        self.log.info('getPermission')
-        return self.parseTag('uses-permission')
-
+        xx=r'\<uses-permission android:name=.*\/\>' 
+        return self.GetItemListFromXml(self.file_path,xx)
+   
     def permissionFliter(self,str):
         str = str.split('.')
         for index,item in enumerate(str):
@@ -82,7 +70,6 @@ class ParsingXML(object):
         for l1 in list1:
             handledPermissionStr = self.permissionFliter(l1)
             out += self.apk_md5 + '|' + '1' + '|' + handledPermissionStr + '\n'
-            # out += self.apk_md5 + '|' + '1' + '|' + l1[19:] + '\n'
         list2 = self.getAction()
         for l2 in list2:
             out += self.apk_md5 + '|' + '2' + '|' + l2 + '\n'
@@ -96,5 +83,3 @@ log_file = sys.argv[4]
 obj = ParsingXML(path, md5, output_file,log_file)
 obj.run()
 obj.log.info('finish find permission and action in '+ md5 + '.apk' + ' xml')
-
-
