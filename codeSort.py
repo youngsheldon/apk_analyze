@@ -3,13 +3,16 @@
 # @Author: anchen
 # @Date:   2016-08-23 17:24:54
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-18 00:23:36
+# @Last Modified time: 2016-09-18 14:40:25
 import os
 import re
 import sys
 import Mylog
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+dict = {'Key01':'setComponentEnabledSetting','Key02':'getDeviceId','Key03':'Phone',
+'Key04':'CallLog','Key05':'DevicePolicyManager','Key06':'sms','Key07':'connectivity','Key08':'mail','Key09':'getSharedPreferences','Key10':'sendTextMessage','Key11':'createFromPdu','Key12':'ACTION_CHANGE_DEFAULT','Key13':'abortBroadcast','Key14':'@','Key15':'1'}
 
 class Analyze(object):
     """docstring for Analyze"""
@@ -63,9 +66,15 @@ class Analyze(object):
         return FilePathList
 
     def GetCodeBlockFromJavaSouce(self, Context, StringToFind):
-        pattern = re.compile(StringToFind)  
-        results = pattern.findall(Context)  
-        return results
+        ret = Context.find(dict[self.key])
+        print 'in:' + dict[self.key]
+        print ret 
+        if ret is not -1:
+            pattern = re.compile(StringToFind)  
+            results = pattern.findall(Context) 
+            return results
+        else:
+            return None
 
     def FindTarStringLocationInFile(self, file, TarString):
         self.log.info('FindTarStringLocationInFile')
@@ -90,12 +99,17 @@ class Analyze(object):
         for l in list:
             if 'android' not in l and 'javax' not in l and 'res' not in l and '.java' in l:
                 f=open(l,'r')
+                print 'open:' + l
                 Context=f.read()
+                f.flush()
                 f.close()
+                print 'close:' + l
                 ret=self.GetCodeBlockFromJavaSouce(Context,TarString)
+                print 'GetCodeBlockFromJavaSouce:' + l
                 if ret:
                     self.FindTarStringLocationInFile(l,TarString)
-
+                    print 'FindTarStringLocationInFile:' + l
+                    break 
     def run(self):
         self.log.info('run -begin to find key codeblock in '+ self.apk_md5 + '.apk' + ' source')
         expr_list = self.getRegularExpression()
@@ -103,6 +117,7 @@ class Analyze(object):
             self.key = l[0]
             if self.print_flag:
                 print l[0]
+            print self.key
             self.FindTarString(l[1])
             if self.code_content is not '':
                 self.OutPutReport()
@@ -115,4 +130,3 @@ log_file = sys.argv[4]
 obj = Analyze(tarpath,apk_md5,outPutfileName,log_file)
 obj.run()
 obj.log.info('finish find key codeblock in '+ apk_md5 + '.apk' + ' source')
-
