@@ -2,7 +2,7 @@
 # @Author: anchen
 # @Date:   2016-08-26 14:53:10
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-17 18:04:39
+# @Last Modified time: 2016-09-18 16:06:34
 md5_exist=1
 md5_noHas=0
 decoded_log=md5_log.txt 
@@ -33,7 +33,7 @@ DecompilingApkList()
     # bigApk=/opt/smmc/data_backup/big_apk/
     # bigApk=/mnt/hgfs/winShare/big_apk2
     bigApk=/home/sheldon/apkBig/ 
-    filelist=`ls $path`
+    filelist=`ls -Sr $path`
     for file in $filelist
     do 
         fileNmae=${file%.apk*}
