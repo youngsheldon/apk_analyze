@@ -3,8 +3,7 @@
 # @Author: anchen
 # @Date:   2016-09-06 14:38:46
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-18 21:05:03
-import xml.etree.ElementTree as ET
+# @Last Modified time: 2016-09-19 09:46:26
 import Mylog
 import re 
 import sys

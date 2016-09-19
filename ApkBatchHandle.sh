@@ -2,10 +2,11 @@
 # @Author: anchen
 # @Date:   2016-08-26 14:53:10
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-18 16:06:34
+# @Last Modified time: 2016-09-19 10:35:00
 md5_exist=1
 md5_noHas=0
 decoded_log=md5_log.txt 
+decode_time_log='log/decode_time.log'
 
 getFileSize()
 {
@@ -31,8 +32,8 @@ DecompilingApkList()
 {
     path=$1
     # bigApk=/opt/smmc/data_backup/big_apk/
-    # bigApk=/mnt/hgfs/winShare/big_apk2
-    bigApk=/home/sheldon/apkBig/ 
+    bigApk=/mnt/hgfs/winShare/big_apk/
+    # bigApk=/home/sheldon/apkBig/ 
     filelist=`ls -Sr $path`
     for file in $filelist
     do 
@@ -47,6 +48,7 @@ DecompilingApkList()
             then
                 ./analyzeApk.sh $filePath $sourcePath
                 echo $fileNmae >> $decoded_log
+                echo 'fileSize:'$file_size >> $decode_time_log
             else
                 mv $filePath $bigApk
             fi

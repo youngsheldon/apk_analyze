@@ -3,10 +3,11 @@
 # @Author: anchen
 # @Date:   2016-08-23 17:24:54
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-18 14:40:25
+# @Last Modified time: 2016-09-19 20:42:40
 import os
 import re
 import sys
+import time
 import Mylog
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -67,8 +68,6 @@ class Analyze(object):
 
     def GetCodeBlockFromJavaSouce(self, Context, StringToFind):
         ret = Context.find(dict[self.key])
-        print 'in:' + dict[self.key]
-        print ret 
         if ret is not -1:
             pattern = re.compile(StringToFind)  
             results = pattern.findall(Context) 
@@ -89,6 +88,7 @@ class Analyze(object):
                 self.filepath = file
                 self.line_index = str(line_num)
                 self.code_content = line.strip()
+                break 
         if self.print_flag:
             print ContextToSave
         f.close()
@@ -99,17 +99,13 @@ class Analyze(object):
         for l in list:
             if 'android' not in l and 'javax' not in l and 'res' not in l and '.java' in l:
                 f=open(l,'r')
-                print 'open:' + l
                 Context=f.read()
-                f.flush()
                 f.close()
-                print 'close:' + l
                 ret=self.GetCodeBlockFromJavaSouce(Context,TarString)
-                print 'GetCodeBlockFromJavaSouce:' + l
                 if ret:
                     self.FindTarStringLocationInFile(l,TarString)
-                    print 'FindTarStringLocationInFile:' + l
                     break 
+
     def run(self):
         self.log.info('run -begin to find key codeblock in '+ self.apk_md5 + '.apk' + ' source')
         expr_list = self.getRegularExpression()
@@ -117,16 +113,28 @@ class Analyze(object):
             self.key = l[0]
             if self.print_flag:
                 print l[0]
-            print self.key
             self.FindTarString(l[1])
             if self.code_content is not '':
                 self.OutPutReport()
             self.clear()
-        
+
+
+# tarpath = "2ce58586fc2b0ef6dccda83d1e6ca030/"
+# apk_md5 = "2ce58586fc2b0ef6dccda83d1e6ca030"
+# outPutfileName = "result/output.txt"
+# log_file = "sort.log"
+
 tarpath = sys.argv[1]
 apk_md5 = sys.argv[2]
 outPutfileName = sys.argv[3]
 log_file = sys.argv[4]
+
+start = time.clock()
 obj = Analyze(tarpath,apk_md5,outPutfileName,log_file)
 obj.run()
 obj.log.info('finish find key codeblock in '+ apk_md5 + '.apk' + ' source')
+end = time.clock()
+print 'Running time: %s Seconds'%(end-start)
+
+mylog = Mylog.Mylog('log/decode_time.log').getObject()
+mylog.info('sortCode ' + apk_md5 + ' Running time: %s Seconds'%(end-start) + '\r')
