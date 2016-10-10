@@ -2,7 +2,7 @@
 # @Author: anchen
 # @Date:   2016-09-11 20:06:25
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-12 08:59:16
+# @Last Modified time: 2016-10-10 10:24:06
 cur_dir=$(pwd)
 jadx_dir='/jadx/build/jadx/bin'
 run_env=$cur_dir$jadx_dir
