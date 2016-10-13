@@ -3,7 +3,7 @@
 # @Author: anchen
 # @Date:   2016-09-06 14:38:46
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-19 09:46:26
+# @Last Modified time: 2016-10-13 09:22:20
 import Mylog
 import re 
 import sys
@@ -12,12 +12,13 @@ sys.setdefaultencoding('utf-8')
 
 class ParsingXML(object):
     """docstring for ParsingXML"""
-    def __init__(self, file_path, apk_md5, output_file, log_file):
+    def __init__(self, file_path, apk_md5, output_file, log_file, temp_out_file):
         self.file_path = file_path
         self.apk_md5 = apk_md5
         self.output_file = output_file
         self.log_file = log_file
         self.log = Mylog.Mylog(self.log_file).getObject()
+        self.temp_out_file = temp_out_file
 
     def GetItemListFromXml(self,XmlFile,xx):
         item_list = []
@@ -74,11 +75,15 @@ class ParsingXML(object):
             out += self.apk_md5 + '|' + '2' + '|' + l2 + '\n'
         f.write(out)
         f.close()
+        f_t = open(self.temp_out_file,'w+')
+        f_t.write(out)
+        f_t.close()
 
 path = sys.argv[1]
 md5 = sys.argv[2]
 output_file = sys.argv[3]
 log_file = sys.argv[4]
-obj = ParsingXML(path, md5, output_file,log_file)
+temp_out_file = sys.argv[5]
+obj = ParsingXML(path, md5, output_file,log_file,temp_out_file)
 obj.run()
 obj.log.info('finish find permission and action in '+ md5 + '.apk' + ' xml')

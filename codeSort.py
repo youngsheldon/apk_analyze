@@ -3,7 +3,7 @@
 # @Author: anchen
 # @Date:   2016-08-23 17:24:54
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-09-19 20:42:40
+# @Last Modified time: 2016-10-13 09:39:49
 import os
 import re
 import sys
@@ -17,7 +17,7 @@ dict = {'Key01':'setComponentEnabledSetting','Key02':'getDeviceId','Key03':'Phon
 
 class Analyze(object):
     """docstring for Analyze"""
-    def __init__(self, FilePath, apk_md5, output_file, log_file):
+    def __init__(self, FilePath, apk_md5, output_file, log_file, temp_out_file):
         self.output_file = output_file
         self.FilePath = FilePath 
         self.apk_md5 = apk_md5
@@ -28,6 +28,8 @@ class Analyze(object):
         self.code_content = ''
         self.log = Mylog.Mylog(self.log_file).getObject()
         self.print_flag = 0
+        self.temp_content = ''
+        self.temp_out_file = temp_out_file
 
     def clear(self):
         self.log.info('clear')
@@ -56,6 +58,12 @@ class Analyze(object):
         f = open(self.output_file, 'a+')
         out = self.apk_md5 + '|' + self.key + '|' + self.filepath + '|' + self.line_index + '|' + self.code_content + '\n'
         f.write(out)
+        f.close()
+        self.temp_content += out 
+
+    def out_temp_file(self):
+        f = open(self.temp_out_file,'w+')
+        f.write(self.temp_content)
         f.close()
 
     def GetFilePathList(self, rootDir):
@@ -117,7 +125,7 @@ class Analyze(object):
             if self.code_content is not '':
                 self.OutPutReport()
             self.clear()
-
+        self.out_temp_file()
 
 # tarpath = "2ce58586fc2b0ef6dccda83d1e6ca030/"
 # apk_md5 = "2ce58586fc2b0ef6dccda83d1e6ca030"
@@ -128,9 +136,10 @@ tarpath = sys.argv[1]
 apk_md5 = sys.argv[2]
 outPutfileName = sys.argv[3]
 log_file = sys.argv[4]
+temp_out_file = sys.argv[5]
 
 start = time.clock()
-obj = Analyze(tarpath,apk_md5,outPutfileName,log_file)
+obj = Analyze(tarpath,apk_md5,outPutfileName,log_file,temp_out_file)
 obj.run()
 obj.log.info('finish find key codeblock in '+ apk_md5 + '.apk' + ' source')
 end = time.clock()

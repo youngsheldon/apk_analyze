@@ -2,7 +2,7 @@
 # @Author: anchen
 # @Date:   2016-08-26 14:53:10
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-10-10 09:24:43
+# @Last Modified time: 2016-10-13 10:08:35
 md5_exist=1
 md5_noHas=0
 decoded_log=md5_log.txt 
@@ -44,7 +44,7 @@ DecompilingApkList()
         ret=$(checkMd5 $fileNmae)
         if test $[ret] -eq  0                                
         then
-            if test $[file_size] -lt 80000
+            if test $[file_size] -lt 800000
             then
                 ./analyzeApk.sh $filePath $sourcePath
                 echo $fileNmae >> $decoded_log
